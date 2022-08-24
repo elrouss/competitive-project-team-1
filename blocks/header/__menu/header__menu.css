@@ -1,0 +1,7 @@
+.header__menu {
+  color: #151515;
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  margin: 28px 0 28px 120px;
+}

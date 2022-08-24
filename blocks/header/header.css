@@ -1,0 +1,9 @@
+.header {
+  /* width: calc(100% - 2 * 120px); */
+  width: 100%;
+  height: 74px;
+  position: fixed;
+  z-index: 1;
+  background-color: #F4F4F4;
+  top: 0;
+}
