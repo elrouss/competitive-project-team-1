@@ -8,6 +8,8 @@
   .ride__line {
     opacity: 1;
     margin-bottom: 20px;
+    position: absolute;
+    top: 0;
   }
 }
 

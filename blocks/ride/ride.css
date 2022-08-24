@@ -10,6 +10,8 @@
   .ride {
     display: block;
     max-width: 284px;
+    padding-top: 20px;
     margin-top: 40px;
+    position: relative;
   }
 }
