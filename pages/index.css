@@ -16,9 +16,9 @@
 @import url(../blocks/intro/__button/intro__button.css);
 @import url(../blocks/intro/__road/intro__road.css);
 @import url(../blocks/intro/__pictures/intro__pictures.css);
-@import url(../blocks/intro/__bicycle-description/intro__bicycle-description.css);
 @import url(../blocks/intro/__bicycle/intro__bicycle.css);
-@import url(../blocks/intro/__bicycle-picture/intro__bicycle-picture.css);
-@import url(../blocks/intro/__bicycle-name/intro__bicycle-name.css);
-@import url(../blocks/intro/__bicycle-line/intro__bicycle-line.css);
+@import url(../blocks/intro/__bicycle/intro__bicycle-description.css);
+@import url(../blocks/intro/__bicycle/intro__bicycle-name.css);
+@import url(../blocks/intro/__bicycle/intro__bicycle-line.css);
+@import url(../blocks/intro/__bicycle/intro__bicycle-picture.css);
 
