@@ -16,3 +16,9 @@
 @import url(../blocks/intro/__button/intro__button.css);
 @import url(../blocks/intro/__road/intro__road.css);
 
+
+@import url(../blocks/workout/workout.css);
+@import url(../blocks/workout/__text/workout__text.css);
+@import url(../blocks/workout/__apps/workout__apps.css);
+@import url(../blocks/workout/__image/workout__image.css);
+@import url(../blocks/workout/__links/workout__links.css);
