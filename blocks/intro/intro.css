@@ -1,7 +1,9 @@
 .intro {
-  margin-top: 200px;
+  margin-top: 100px;
   display: grid;
-  grid-template-columns: 460px 610px;
+  /* grid-template-columns: 34.9% 46.21%;
+   max-width: 1350px; */
+  grid-template-columns: 460px minmax(300px, 610px);
   column-gap: 250px;
   margin-left: 120px;
 }

@@ -1,5 +1,6 @@
 .intro__bicycle-description {
   display: flex;
-  max-width: 326px;
+  max-width: 356px;
+  align-items: center;
   justify-content: space-between;
 }
