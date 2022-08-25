@@ -1,4 +1,5 @@
 .page {
+  max-width: 1440px;
   margin: 0 auto;
   background-color: #f4f4f4;
   color: #151515;
