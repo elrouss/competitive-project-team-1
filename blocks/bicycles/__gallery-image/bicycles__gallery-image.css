@@ -1,4 +1,13 @@
 .bicycles__gallery-image {
   max-width: 340px;
-  position: relative;
+  padding: 20px;
+  object-fit: cover;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+  filter: drop-shadow(0 20px 140px rgba(0, 0, 0, .06));
+  transition: filter .5s ease;
+}
+
+.bicycles__gallery-image:hover{
+  filter: drop-shadow(0 20px 140px rgba(0, 0, 0, .11));
 }

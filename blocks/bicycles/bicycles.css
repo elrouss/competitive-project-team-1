@@ -2,5 +2,9 @@
   max-width: 1200px;
   margin: 0 120px;
   display: grid;
-  
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+  'title . sidebar'
+  'image image image';
 }

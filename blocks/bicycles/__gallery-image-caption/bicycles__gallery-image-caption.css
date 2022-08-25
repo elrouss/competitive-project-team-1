@@ -1,6 +1,7 @@
 .bicycles__gallery-image-caption {
   margin: 0;
-  padding-top: 22px;
+  padding-top: 18px;
+  padding-left: 6px;
   font-weight: 600;
   font-size: 18px;
   line-height: calc(22 / 18 * 100%);

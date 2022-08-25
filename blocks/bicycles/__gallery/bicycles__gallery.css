@@ -1,7 +1,11 @@
 .bicycles__gallery {
   margin: 0;
-  padding: 120px 0 0;
+  padding: 117px 0 0;
+  max-width: 1200px;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  grid-area: image;
+  column-gap: 30px;
+  align-self: center;
 }
