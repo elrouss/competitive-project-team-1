@@ -1,0 +1,31 @@
+.intro {
+  margin: 100px 0 0 120px;
+  display: grid;
+  grid-template-columns: minmax(200px, 460px) minmax(300px, 810px);
+  column-gap: 50px;
+  grid-template-areas: "title image"
+                       "parahraph image"
+                       "button image"
+                       "description image"
+                       ". image";
+  /* grid-template-columns: 34.9% 46.21%; */
+   /* max-width: 1350px; */
+  /* grid-template-columns: 460px minmax(300px, 610px);
+  margin-left: 120px; */
+  /* display: flex;
+  justify-content: flex-end;
+  gap: 50px; */
+  position: relative;
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    grid-template-areas: "title"
+                       "image"
+                       "parahraph"
+                       "button"
+                       ;
+    margin: 0 18px;
+    grid-template-columns: 1fr;
+  }
+}
