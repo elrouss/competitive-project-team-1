@@ -1,0 +1,17 @@
+.ride {
+  display: grid;
+  max-width: 1200px;
+  margin: 120px auto;
+  grid-template-columns: minmax(300px, 650px) minmax(300px, 470px);
+  gap: 80px;
+}
+
+@media screen and (max-width: 320px) {
+  .ride {
+    display: block;
+    max-width: 284px;
+    padding-top: 20px;
+    margin-top: 40px;
+    position: relative;
+  }
+}

@@ -1,9 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+
 @import url(../blocks/content/content.css);
 @import url(../blocks/section-title/title.css);
 @import url(../blocks/section-paragraph/paragraph.css);
+@import url(../blocks/link/link.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu/header__menu.css);
@@ -14,7 +16,22 @@
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__button/intro__button.css);
+@import url(../blocks/intro/__button/intro__button-text.css);
+@import url(../blocks/intro/__description/intro__description.css);
+@import url(../blocks/intro/__description/intro__description-line.css);
+@import url(../blocks/intro/__description/intro__description-name.css);
+@import url(../blocks/intro/__pictures/intro__pictures.css);
 @import url(../blocks/intro/__road/intro__road.css);
+@import url(../blocks/intro/__bicycle/intro__bicycle-picture.css);
+
+@import url(../blocks/ride/ride.css);
+@import url(../blocks/ride/__picture/ride__picture.css);
+@import url(../blocks/ride/__text/ride__text.css);
+@import url(../blocks/ride/__title/ride__title.css);
+@import url(../blocks/ride/__author/ride__author.css);
+@import url(../blocks/ride/__author/ride__author-name.css);
+@import url(../blocks/ride/__author/ride__author-vocation.css);
+@import url(../blocks/line/ride__line.css);
 
 @import url(../blocks/roads/roads.css);
 @import url(../blocks/roads/__slider/roads__slider.css);
@@ -22,3 +39,16 @@
 @import url(../blocks/roads/__vector/roads__vector.css);
 @import url(../blocks/roads/__slider-arrows/roads__slider-arrows.css);
 @import url(../blocks/arrow/arrow.css);
+
+@import url(../blocks/workout/workout.css);
+@import url(../blocks/workout/__text/workout__text.css);
+@import url(../blocks/workout/__apps/workout__apps.css);
+@import url(../blocks/workout/__image/workout__image.css);
+@import url(../blocks/workout/__links/workout__links.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__contact-info/form__contact-info.css);
+@import url(../blocks/form/__contact-email/form__contact-email.css);

@@ -1,0 +1,9 @@
+ .header__item {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 34px 0 0;
+}
+
+.header__item:last-of-type {
+  margin: 0;
+}
