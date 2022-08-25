@@ -1,15 +1,14 @@
 .workout__apps {
   display: flex;
   justify-content: space-between;
-  max-width: 164px;
+  max-width: 152px;
   list-style: none;
   padding: 0;
   margin: 0;
-  /* grid-column: 1;
-  grid-row-start: 3;
-  grid-row-end: 3; */
+
   grid-area: apps;
 }
+
 @media screen and (max-width: 320px) {
   .workout__apps {
     max-width: 154px;
