@@ -1,0 +1,16 @@
+ .intro__pictures {
+  max-width: 810px;
+  height: 836px;
+  position: relative;
+  grid-area: image;
+ }
+
+
+ @media screen and (max-width: 320px) {
+  .intro__pictures {
+    max-width: 334px;
+    height: 348px;
+    margin-top: 40px;
+  }
+ }
+
