@@ -8,15 +8,7 @@
   width:180px;
   position: relative;
   overflow: hidden;
- }
-
- .inro__button-text {
-  color: #fff;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: 1px;
-  position: relative;
+  grid-area: button;
  }
 
  .intro__button::before {
@@ -34,3 +26,10 @@
   left: 0;
  }
 
+
+ @media screen and (max-width: 320px) {
+  .intro__button {
+    margin: 40px 0;
+    width: 284px;
+  }
+ }

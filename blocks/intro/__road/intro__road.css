@@ -1,6 +1,14 @@
 .intro__road {
-  width: 100%;
-  position: relative;
   max-width: 610px;
-  min-width: 400px;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__road {
+    max-width: 254px;
+    max-height: 348px;
+
+  }
 }
