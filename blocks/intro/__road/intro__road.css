@@ -1,4 +1,6 @@
 .intro__road {
   width: 100%;
   position: relative;
+  max-width: 610px;
+  min-width: 400px;
 }
