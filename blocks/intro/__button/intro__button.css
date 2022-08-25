@@ -20,12 +20,11 @@
   left: -100%;
   background-color: #319E75;
   transition: 0.5s;
-
  }
+
  .intro__button:hover::before {
   left: 0;
  }
-
 
  @media screen and (max-width: 320px) {
   .intro__button {
