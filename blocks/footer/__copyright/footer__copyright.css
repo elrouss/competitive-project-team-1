@@ -1,0 +1,9 @@
+.footer__copyright {
+  margin: 0;
+  padding: 100px 0 60px 120px;
+  max-width: 123px;
+  color: #cfcfcf;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(20 / 14 * 100%);
+}
