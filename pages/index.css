@@ -20,10 +20,15 @@
 @import url(../blocks/intro/__description/intro__description.css);
 @import url(../blocks/intro/__description/intro__description-line.css);
 @import url(../blocks/intro/__description/intro__description-name.css);
-
 @import url(../blocks/intro/__pictures/intro__pictures.css);
 @import url(../blocks/intro/__road/intro__road.css);
 @import url(../blocks/intro/__bicycle/intro__bicycle-picture.css);
+
+@import url(../blocks/workout/workout.css);
+@import url(../blocks/workout/__text/workout__text.css);
+@import url(../blocks/workout/__apps/workout__apps.css);
+@import url(../blocks/workout/__image/workout__image.css);
+@import url(../blocks/workout/__links/workout__links.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);
