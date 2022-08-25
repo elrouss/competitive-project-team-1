@@ -1,0 +1,8 @@
+.bicycles__gallery-image-background {
+  min-width: 380px;
+  min-height: 380px;
+  background-color: red;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

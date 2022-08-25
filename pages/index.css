@@ -17,3 +17,10 @@
 @import url(../blocks/intro/__road/intro__road.css);
 
 @import url(../blocks/bicycles/bicycles.css);
+@import url(../blocks/bicycles/__gallery/bicycles__gallery.css);
+@import url(../blocks/bicycles/__gallery-image/bicycles__gallery-image.css);
+@import url(../blocks/bicycles/__gallery-image-background/bicycles__gallery-image-background.css);
+@import url(../blocks/bicycles/__gallery-image-caption/bicycles__gallery-image-caption.css);
+@import url(../blocks/bicycles/__links/bicycles__links.css);
+@import url(../blocks/bicycles/__link/bicycles__link.css);
+@import url(../blocks/bicycles/__link/_selected/bicycles__link_selected.css)
