@@ -1,0 +1,11 @@
+.workout__text {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 320px) {
+  .workout__text {
+    margin-top: 40px;
+  }
+}
