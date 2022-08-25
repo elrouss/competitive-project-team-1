@@ -24,6 +24,15 @@
 @import url(../blocks/intro/__road/intro__road.css);
 @import url(../blocks/intro/__bicycle/intro__bicycle-picture.css);
 
+@import url(../blocks/ride/ride.css);
+@import url(../blocks/ride/__picture/ride__picture.css);
+@import url(../blocks/ride/__text/ride__text.css);
+@import url(../blocks/ride/__title/ride__title.css);
+@import url(../blocks/ride/__author/ride__author.css);
+@import url(../blocks/ride/__author/ride__author-name.css);
+@import url(../blocks/ride/__author/ride__author-vocation.css);
+@import url(../blocks/line/ride__line.css);
+
 @import url(../blocks/workout/workout.css);
 @import url(../blocks/workout/__text/workout__text.css);
 @import url(../blocks/workout/__apps/workout__apps.css);
