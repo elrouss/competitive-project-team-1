@@ -5,3 +5,10 @@
   justify-content: end;
   margin: 28px 0 28px 120px;
 }
+
+@media screen and (max-width: 522px) {
+  .header__menu {
+    display: none;
+
+  }
+}

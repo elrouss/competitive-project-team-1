@@ -6,3 +6,40 @@
   background-color: #f4f4f4;
   top: 0;
 }
+
+.header__icon {
+  display: none;
+
+}
+
+@media screen and (max-width: 522px) {
+  .header__icon {
+    display: block;
+    cursor: pointer;
+    width: 29px;
+    height: 47px;
+    z-index: 2;
+    background-image: url(../../images/menu_burger_icon.svg);
+    position: absolute;
+    top: 11px;
+    right: 18px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+}
+
+  /* .header__icon span,
+  .header__icon::before,
+  .header__icon::after {
+    left: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    transition: all 0.5 ease;
+    background-color: #151515;
+  }
+
+  .header__icon::before,
+  .header__icon::after {
+} */
