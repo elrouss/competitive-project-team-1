@@ -1,0 +1,13 @@
+.header__menu {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  margin: 28px 120px 28px 0;
+}
+
+@media screen and (max-width: 522px) {
+  .header__menu {
+    display: none;
+  }
+}
