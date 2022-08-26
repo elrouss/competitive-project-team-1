@@ -1,15 +1,15 @@
 .ride__title {
   font-weight: 600;
   font-size: 34px;
-  line-height: 44px;
-  letter-spacing: -0.5px;
+  line-height: calc(44 / 34 * 100%);
+  letter-spacing: -.5px;
   margin: 0;
 }
 
 @media screen and (max-width: 320px) {
   .ride__title {
     font-size: 23px;
-    line-height: 29px;
+    line-height: calc(29 / 23 * 100%);
     margin-bottom: 40px;
   }
 }

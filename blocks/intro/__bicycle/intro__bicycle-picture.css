@@ -3,7 +3,7 @@
   height: 260px;
   padding: 20px 50px;
   background: #f4f4f4;
-  filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, .2));
   border-radius: 20px;
   position: sticky;
   z-index: 1;

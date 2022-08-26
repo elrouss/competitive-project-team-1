@@ -9,12 +9,6 @@
   line-height: calc(28 / 18 * 100%);
   color: #222222;
   opacity: .7;
-  grid-area: sidebar;
   align-self: flex-end;
   justify-self: flex-end;
-  transition: opacity .3s ease;
-}
-
-.bicycles__links:hover {
-  opacity: .6;
 }

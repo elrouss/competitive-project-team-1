@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="distribution" content="global">
     <meta name="description" content="Сайт рассказывает о разнообразии маршрутов для велотренировок,
-    различных типах велосипедов, полезных сервисах и приложениях для построения тренировочного плана под те или иные нужды.
+    различных типах велосипедов, полезных сервисах и приложениях для построения тренировочного плана.
     Он реализован в качестве конкурсной работы студентов Яндекс.Практикума, обучающихся профессии веб-разработчика.">
     <meta name="author" content="Борис Зашляпин, Софья Пешехонова">
     <title>Велотренировки</title>
@@ -25,30 +25,34 @@
     <main class="content">
       <section class="intro">
           <h1 class="section-title">Шоссе, ТТ и&nbsp;Грэвел</h1>
-          <p class="section-paragraph">Триатлонные старты, горные серпантины или грейвел заезды
-            по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
-          <button class="intro__button"><span class="inro__button-text">Подробнее</span></button>
+          <p class="section-paragraph">
+            Триатлонные старты, горные серпантины или грейвел заезды
+            по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.
+          </p>
+          <button class="intro__button"><span class="intro__button-text">Подробнее</span></button>
           <div class="intro__description">
-            <p class="intro__description-name">Cannondale Systemsix</p>
+            <p class="intro__description-name" lang="en">Cannondale Systemsix</p>
             <div class="intro__description-line"></div>
         </div>
       <div class="intro__pictures">
-        <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
-          class="intro__bicycle" target="_blank">
-          <img class="intro__bicycle-picture" src="./images/intro_Cannondale-Systemsix.png" alt="велосипед">
+        <a
+          href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
+          class="intro__bicycle"
+          target="_blank">
+          <img class="intro__bicycle-picture" src="./images/intro_Cannondale-Systemsix.png" alt="Велосипед">
         </a>
-        <img class="intro__road" src="./images/Intro-MountainRoad.jpg" alt="велотропа в горах">
+        <img class="intro__road" src="./images/Intro-MountainRoad.jpg" alt="Велотропа в горах">
       </div>
       </section>
-      <section class="ride" aria-label="цитата">
-        <img class="ride__picture" src="./images/long-trip.jpg">
-        <div class="ride__text">
-          <h2 class="ride__title">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
+      <section class="ride" aria-label="Цитата">
+        <img class="ride__picture" src="./images/long-trip.jpg" alt="Дорога по холмистой местности">
+        <article class="ride__text">
+          <blockquote class="ride__title">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</blockquote>
           <div class="ride__author">
             <p class="ride__author-name">Эдди Меркс</p>
             <p class="ride__author-vocation">Велогонщик</p>
           </div>
-        </div>
+        </article>
         <div class="line"></div>
       </section>
       <section class="roads" id="roadway">
@@ -73,11 +77,13 @@
       </section>
       <section class="bicycles" id="bike">
         <h2 class="section-title">Велосипеды</h2>
-        <ul class="bicycles__links">
-          <li><a href="" class="bicycles__link bicycles__link_selected">Шоссе</a></li>
-          <li><a href="" class="bicycles__link">Грэвел</a></li>
-          <li><a href="" class="bicycles__link">ТТ</a></li>
-        </ul>
+        <nav class="bicycles__sidebar">
+          <ul class="bicycles__links">
+            <li><a href="" class="bicycles__link bicycles__link_selected">Шоссе</a></li>
+            <li><a href="" class="bicycles__link">Грэвел</a></li>
+            <li><a href="" class="bicycles__link">ТТ</a></li>
+          </ul>
+        </nav>
         <ul class="bicycles__gallery">
           <li>
             <a
@@ -87,7 +93,7 @@
               alt="Велосипед модели Cervelo Caledonia-5"
               class="bicycles__gallery-image">
             </a>
-            <p class="bicycles__gallery-image-caption" lang="en">Cervelo Caledonia-5</p>
+            <h3 class="bicycles__gallery-image-caption" lang="en">Cervelo Caledonia-5</h3>
           </li>
           <li>
             <a
@@ -97,7 +103,7 @@
               alt="Велосипед модели Cannondale Systemsix Himod"
               class="bicycles__gallery-image">
             </a>
-            <p class="bicycles__gallery-image-caption" lang="en">Cannondale Systemsix Himod</p>
+            <h3 class="bicycles__gallery-image-caption" lang="en">Cannondale Systemsix Himod<h3>
           </li>
           <li>
             <a
@@ -107,20 +113,22 @@
               alt="Велосипед модели Trek Domane SL-7"
               class="bicycles__gallery-image">
             </a>
-            <p class="bicycles__gallery-image-caption" lang="en">Trek Domane SL-7</p>
+            <h3 class="bicycles__gallery-image-caption" lang="en">Trek Domane SL-7</h3>
           </li>
         </ul>
       </section>
       <section class="workout" id="training">
             <h2 class="workout__title">Тренировки</h2>
-            <p class="section-paragraph">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
+            <p class="section-paragraph">
+              Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
               а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить
-              тренировочный план.</p>
+              тренировочный план.
+            </p>
             <ul class="workout__apps">
-              <li class="workout__app"><a href="https://www.strava.com" class="workout__links link">Strava</a></li>
-              <li class="workout__app"><a href="https://www.komoot.com" class="workout__links link">Komoot</a></li>
+              <li class="workout__app"><a href="https://www.strava.com" class="workout__links link" lang="en">Strava</a></li>
+              <li class="workout__app"><a href="https://www.komoot.com" class="workout__links link" lang="en">Komoot</a></li>
             </ul>
-          <img class="workout__image" src="./images/workout.jpg" alt="дорога в лесу">
+          <img class="workout__image" src="./images/workout.jpg" alt="Дорога в лесу">
           <div class="line"></div>
         </section>
     </main>
@@ -131,7 +139,7 @@
           <input type="email" class="form__contact-email" placeholder="Ваш e-mail">
         </fieldset>
       </form>
-      <p class="footer__copyright">&copy; Road Club 2021</p>
+      <p class="footer__copyright" lang="en">&copy; Road Club 2021</p>
     </footer>
   </body>
 <html>

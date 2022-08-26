@@ -1,7 +1,7 @@
 .ride__author-vocation {
   font-weight: 400;
   font-size: 16px;
-  line-height: 28px;
+  line-height: calc(28 / 16 * 100%);
   color: #222;
   margin: 9px 0 0 0;
 }
@@ -9,7 +9,7 @@
 @media screen and (max-width: 320px) {
   .ride__author-vocation {
     font-size: 10px;
-    line-height: 16px;
+    line-height: calc(16 / 10 * 100%);
     margin-top: 4px;
   }
 }

@@ -1,0 +1,4 @@
+.bicycles__sidebar {
+  display: grid;
+  grid-area: sidebar;
+}

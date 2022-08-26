@@ -4,11 +4,12 @@
   grid-template-columns: minmax(200px, 460px) minmax(400px, 580px);
   column-gap: 160px;
   margin: 211px auto 120px;
-   grid-template-areas: "title image"
-                        " . image"
-                        "paragraph image"
-                        ". image"
-                        "apps image";
+  grid-template-areas:
+    'title image'
+    '. image'
+    'paragraph image'
+    '. image'
+    'apps image';
 }
 
 /* @media screen and (max-width: 1222px) {
@@ -27,9 +28,10 @@
     max-width: 284px;
     margin: 0 auto;
     grid-template-columns: 1fr;
-    grid-template-areas: "title"
-                          "image"
-                          "paragraph"
-                          "apps";
+    grid-template-areas:
+      'title'
+      'image'
+      'paragraph'
+      'apps';
   }
 }

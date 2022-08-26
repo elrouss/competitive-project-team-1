@@ -15,10 +15,10 @@
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__button/intro__button.css);
-@import url(../blocks/intro/__button/intro__button-text.css);
+@import url(../blocks/intro/__button-text/intro__button-text.css);
 @import url(../blocks/intro/__description/intro__description.css);
-@import url(../blocks/intro/__description/intro__description-line.css);
-@import url(../blocks/intro/__description/intro__description-name.css);
+@import url(../blocks/intro/__description-line/intro__description-line.css);
+@import url(../blocks/intro/__description-name/intro__description-name.css);
 @import url(../blocks/intro/__pictures/intro__pictures.css);
 @import url(../blocks/intro/__road/intro__road.css);
 @import url(../blocks/intro/__bicycle/intro__bicycle-picture.css);
@@ -28,8 +28,8 @@
 @import url(../blocks/ride/__text/ride__text.css);
 @import url(../blocks/ride/__title/ride__title.css);
 @import url(../blocks/ride/__author/ride__author.css);
-@import url(../blocks/ride/__author/ride__author-name.css);
-@import url(../blocks/ride/__author/ride__author-vocation.css);
+@import url(../blocks/ride/__author-name/ride__author-name.css);
+@import url(../blocks/ride/__author-vocation/ride__author-vocation.css);
 @import url(../blocks/line/ride__line.css);
 
 @import url(../blocks/roads/roads.css);
@@ -43,6 +43,7 @@
 @import url(../blocks/bicycles/__gallery/bicycles__gallery.css);
 @import url(../blocks/bicycles/__gallery-image/bicycles__gallery-image.css);
 @import url(../blocks/bicycles/__gallery-image-caption/bicycles__gallery-image-caption.css);
+@import url(../blocks/bicycles/__sidebar/bicycles__sidebar.css);
 @import url(../blocks/bicycles/__links/bicycles__links.css);
 @import url(../blocks/bicycles/__link/bicycles__link.css);
 @import url(../blocks/bicycles/__link/_selected/bicycles__link_selected.css);

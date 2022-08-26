@@ -1,4 +1,9 @@
 .bicycles__link {
   text-decoration: none;
   color: inherit;
+  transition: opacity .7s ease;
+}
+
+.bicycles__link:hover {
+  opacity: .6;
 }

@@ -1,6 +1,6 @@
  .header__item {
   font-size: 14px;
-  line-height: 18px;
+  line-height: calc(18 / 14 * 100%);
   margin: 0 34px 0 0;
 }
 

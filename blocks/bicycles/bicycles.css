@@ -5,6 +5,6 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
-  'title . sidebar'
-  'image image image';
+    'title . sidebar'
+    'image image image';
 }

@@ -1,7 +1,7 @@
 .intro__road {
   max-width: 610px;
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
 }
 
@@ -9,6 +9,5 @@
   .intro__road {
     max-width: 254px;
     max-height: 348px;
-
   }
 }

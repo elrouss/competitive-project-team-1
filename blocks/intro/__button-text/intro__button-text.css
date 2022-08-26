@@ -1,8 +1,8 @@
-.inro__button-text {
+.intro__button-text {
   color: #fff;
   font-weight: 600;
   font-size: 14px;
-  line-height: 18px;
+  line-height: calc(18 / 14 * 100%);
   letter-spacing: 1px;
   position: relative;
 }
