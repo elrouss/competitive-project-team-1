@@ -8,7 +8,7 @@
   grid-area: title;
 }
 
-.section-title:last-of-type {
+.section-title:nth-of-type(3) {
   margin-top: 0;
 }
 
