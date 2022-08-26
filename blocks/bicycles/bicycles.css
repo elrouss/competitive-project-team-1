@@ -1,0 +1,10 @@
+.bicycles {
+  max-width: 1200px;
+  margin: 120px 120px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+  'title . sidebar'
+  'image image image';
+}

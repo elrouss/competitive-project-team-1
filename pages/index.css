@@ -39,6 +39,14 @@
 @import url(../blocks/roads/__slider-arrows/roads__slider-arrows.css);
 @import url(../blocks/arrow/arrow.css);
 
+@import url(../blocks/bicycles/bicycles.css);
+@import url(../blocks/bicycles/__gallery/bicycles__gallery.css);
+@import url(../blocks/bicycles/__gallery-image/bicycles__gallery-image.css);
+@import url(../blocks/bicycles/__gallery-image-caption/bicycles__gallery-image-caption.css);
+@import url(../blocks/bicycles/__links/bicycles__links.css);
+@import url(../blocks/bicycles/__link/bicycles__link.css);
+@import url(../blocks/bicycles/__link/_selected/bicycles__link_selected.css);
+
 @import url(../blocks/workout/workout.css);
 @import url(../blocks/workout/__text/workout__text.css);
 @import url(../blocks/workout/__apps/workout__apps.css);
