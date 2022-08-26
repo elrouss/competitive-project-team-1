@@ -11,3 +11,10 @@
 .bicycles__gallery-image:hover{
   filter: drop-shadow(0 20px 140px rgba(0, 0, 0, .11));
 }
+
+/*@media screen and (max-width: 320px) {
+  .bicycles__gallery-image {
+    max-width: 254.11px;
+    padding: 14.95px 14.95px 36.95px;
+  }
+}*/

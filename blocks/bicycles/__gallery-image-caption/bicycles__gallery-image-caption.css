@@ -6,3 +6,13 @@
   font-size: 18px;
   line-height: calc(22 / 18 * 100%);
 }
+
+/*@media screen and (max-width: 320px) {
+  .bicycles__gallery-image-caption {
+    font-size: 14px;
+    line-height: calc(18 / 14 * 100%);
+    position: absolute;
+    left: 67px;
+    bottom: 38px;
+  }
+}*/

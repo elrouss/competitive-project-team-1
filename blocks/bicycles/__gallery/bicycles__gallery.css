@@ -9,3 +9,9 @@
   column-gap: 30px;
   align-self: center;
 }
+
+/*@media screen and (max-width: 320px) {
+  .bicycles__gallery {
+    position: relative;
+  }
+}*/

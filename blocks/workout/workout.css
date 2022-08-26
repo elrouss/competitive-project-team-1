@@ -4,7 +4,7 @@
   grid-template-columns: minmax(200px, 460px) minmax(400px, 580px);
   column-gap: 160px;
   margin: 0 auto 120px;
-  padding-top: 74px;
+  padding-top: 93px;
   grid-template-areas:
     'title image'
     '. image'
