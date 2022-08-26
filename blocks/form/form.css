@@ -3,3 +3,11 @@
   padding-left: 120px;
   max-width: 360px;
 }
+
+@media screen and (max-width: 320px) {
+  .form {
+    max-width: 284px;
+    padding-top: 40px;
+    padding-left: 18px;
+  }
+}

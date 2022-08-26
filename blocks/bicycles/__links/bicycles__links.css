@@ -7,8 +7,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: calc(28 / 18 * 100%);
-  color: #222222;
-  opacity: .7;
   align-self: flex-end;
   justify-self: flex-end;
 }

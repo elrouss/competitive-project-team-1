@@ -5,7 +5,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .ride__name {
+  .ride__author-name {
     font-size: 14px;
     line-height: calc(22 / 14 * 100%);
   }

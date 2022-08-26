@@ -34,3 +34,9 @@
 .form__contact-email:focus::placeholder {
   color: transparent;
 }
+
+@media screen and (max-width: 320px) {
+  .form__contact-email {
+    min-width: 264px;
+  }
+}

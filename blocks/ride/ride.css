@@ -13,5 +13,6 @@
     padding-top: 20px;
     margin-top: 40px;
     position: relative;
+    border-top: 1px solid #e3e3e3;
   }
 }

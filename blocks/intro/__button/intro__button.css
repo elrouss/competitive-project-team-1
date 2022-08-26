@@ -31,5 +31,6 @@
   .intro__button {
     margin: 40px 0;
     width: 284px;
+    padding-top: 13px;
   }
 }

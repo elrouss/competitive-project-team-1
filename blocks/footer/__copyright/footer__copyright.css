@@ -7,3 +7,11 @@
   font-size: 14px;
   line-height: calc(20 / 14 * 100%);
 }
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    padding-left: 18px;
+    padding-bottom: 25px;
+    font-weight: 500;
+  }
+}

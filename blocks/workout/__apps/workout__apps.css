@@ -3,7 +3,7 @@
   justify-content: space-between;
   max-width: 152px;
   list-style: none;
-  padding: 0;
+  padding: 0 0 7px;
   margin: 0;
   grid-area: apps;
 }
@@ -12,5 +12,7 @@
   .workout__apps {
     max-width: 154px;
     margin-top: 40px;
+    justify-content: normal;
+    column-gap: 30px;
   }
 }
