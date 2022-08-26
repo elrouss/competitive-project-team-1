@@ -13,9 +13,64 @@
   </head>
   <body class="page">
     <header class="header">
-
+      <nav class="header__menu">
+        <ul class="header__items">
+          <li class="header__item"><a href="#" class="header__link link">Покрытия и градиенты</a></li>
+          <li class="header__item"><a href="#" class="header__link link">Велосипеды</a></li>
+          <li class="header__item"><a href="#" class="header__link link">Тренировки</a></li>
+        </ul>
+      </nav>
+      <div class="header__icon"></div>
     </header>
     <main class="content">
+      <section class="intro">
+          <h1 class="section-title">Шоссе, ТТ и&nbsp;Грэвел</h1>
+          <p class="section-paragraph">Триатлонные старты, горные серпантины или грейвел заезды
+            по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+          <button class="intro__button"><span class="inro__button-text">Подробнее</span></button>
+          <div class="intro__description">
+            <p class="intro__description-name">Cannondale Systemsix</p>
+            <div class="intro__description-line"></div>
+        </div>
+      <div class="intro__pictures">
+        <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
+          class="intro__bicycle" target="_blank">
+          <img class="intro__bicycle-picture" src="./images/intro_Cannondale-Systemsix.png" alt="велосипед">
+        </a>
+        <img class="intro__road" src="./images/Intro-MountainRoad.jpg" alt="велотропа в горах">
+      </div>
+      </section>
+      <section class="ride">
+        <img class="ride__picture" src="./images/long-trip.jpg">
+        <div class="ride__text">
+          <h3 class="ride__title">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h3>
+          <div class="ride__author">
+            <p class="ride__author-name">Эдди Меркс</p>
+            <p class="ride__author-vocation">Велогонщик</p>
+          </div>
+        </div>
+        <div class="line"></div>
+      </section>
+      <section class="roads">
+        <article class="highway">
+          <h2 class="section-title">Шоссе</h2>
+          <p class="section-paragraph">
+            На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины.
+            Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.
+          </p>
+        </article>
+        <ul class="roads__slider">
+          <li><img src="./images/highway.jpg" alt="Дорога в горах (серпантин)" class="roads__photo"></li>
+          <li><img src="./images/forest-path.jpg" alt="Дорога в лесу" class="roads__photo"></li>
+          <li><img src="./images/vector-highway.svg" alt="Иконка с изображением линии местности" class="roads__vector"></li>
+        </ul>
+        <nav>
+          <ul class="roads__slider-arrows">
+            <li><img src="./images/arrow-left.svg" alt="Иконка слайдера со стрелкой влево" class="arrow"></li>
+            <li><img src="./images/arrow-right.svg" alt="Иконка слайдера со стрелкой влево" class="arrow"></li>
+          </ul>
+        </nav>
+      </section>
       <section class="bicycles">
         <h2 class="section-title">Велосипеды</h2>
         <ul class="bicycles__links">
@@ -56,9 +111,27 @@
           </li>
         </ul>
       </section>
+      <section class="workout">
+            <h2 class="section-title">Тренировки</h2>
+            <p class="section-paragraph">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
+              а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить
+              тренировочный план.</p>
+            <ul class="workout__apps">
+              <li class="workout__app"><a href="https://www.strava.com" class="workout__links link">Strava</a></li>
+              <li class="workout__app"><a href="https://www.komoot.com" class="workout__links link">Komoot</a></li>
+            </ul>
+          <img class="workout__image" src="./images/workout.jpg" alt="дорога в лесу">
+          <div class="line"></div>
+        </section>
     </main>
     <footer class="footer">
-
+      <h2 class="footer__title">Подпишитесь на рассылку &mdash;</h2>
+      <form class="form">
+        <fieldset class="form__contact-info">
+          <input type="email" class="form__contact-email" placeholder="Ваш e-mail">
+        </fieldset>
+      </form>
+      <p class="footer__copyright">&copy; Road Club 2021</p>
     </footer>
   </body>
 <html>

@@ -1,0 +1,60 @@
+.arrow {
+  max-width: 50px;
+  max-height: 50px;
+  transition: opacity .3s ease;
+}
+
+.arrow:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+/*.arrow {
+  width: 50px;
+  height: 50px;
+  background-color: #ebebeb;
+  border-radius: 50%;
+  position: relative;
+}
+
+.arrow:hover{
+  cursor: pointer;
+  opacity: .6;
+}
+
+.arrow::after {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  margin: 20px;
+  border-top: 2px solid #151515;
+  border-right: 2px solid #151515;
+}
+
+.arrow:hover::after {
+  opacity: .9;
+}
+
+.arrow {
+  width: 7px;
+  height: 7px;
+  margin: 20px;
+  border-top: 2px solid #151515;
+  border-right: 2px solid #151515;
+  position: relative;
+}
+
+.arrow::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #ebebeb;
+  position: absolute;
+  top: -17px;
+  left: -27px;
+  border-radius: 50%;
+  z-index: -1;
+}*/
+

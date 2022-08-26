@@ -1,0 +1,23 @@
+.intro {
+  margin: 20px 0 0 120px;
+  display: grid;
+  grid-template-columns: minmax(200px, 460px) minmax(300px, 810px);
+  column-gap: 50px;
+  grid-template-areas: "title image"
+                       "paragraph image"
+                       "button image"
+                       "description image"
+                       ". image";
+  position: relative;
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    grid-template-areas: "title"
+                       "image"
+                       "paragraph"
+                       "button";
+    margin: 0 18px;
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,13 @@
+.ride__author-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .ride__name {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,17 @@
+.workout__apps {
+  display: flex;
+  justify-content: space-between;
+  max-width: 152px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  grid-area: apps;
+}
+
+@media screen and (max-width: 320px) {
+  .workout__apps {
+    max-width: 154px;
+    margin-top: 40px;
+  }
+}

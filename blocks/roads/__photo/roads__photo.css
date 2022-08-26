@@ -1,0 +1,5 @@
+.roads__photo {
+  max-width: 650px;
+  max-height: 400px;
+  object-fit: cover;
+}

@@ -1,0 +1,11 @@
+.workout__image {
+  width: 100%;
+  grid-column: 2;
+  grid-area: image;
+}
+
+@media screen and (max-width: 320px) {
+  .workout__image {
+    margin-top: 40px;
+  }
+}
