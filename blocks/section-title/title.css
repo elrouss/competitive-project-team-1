@@ -8,10 +8,6 @@
   grid-area: title;
 }
 
-.section-title:nth-of-type(3) {
-  margin-top: 0;
-}
-
 @media screen and (max-width: 320px) {
   .section-title {
     font-size: 32px;

@@ -48,6 +48,7 @@
 @import url(../blocks/bicycles/__link/_selected/bicycles__link_selected.css);
 
 @import url(../blocks/workout/workout.css);
+@import url(../blocks/workout/__title/workout__title.css);
 @import url(../blocks/workout/__text/workout__text.css);
 @import url(../blocks/workout/__apps/workout__apps.css);
 @import url(../blocks/workout/__image/workout__image.css);
