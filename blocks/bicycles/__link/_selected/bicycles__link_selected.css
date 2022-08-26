@@ -1,0 +1,10 @@
+.bicycles__link_selected {
+  color: #151515;
+  font-weight: 600;
+  opacity: 1;
+  transition: opacity .7s ease;
+}
+
+.bicycles__link_selected:hover {
+  opacity: .75;
+}
