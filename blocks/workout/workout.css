@@ -3,7 +3,8 @@
   max-width: 1200px;
   grid-template-columns: minmax(200px, 460px) minmax(400px, 580px);
   column-gap: 160px;
-  margin: 211px auto 120px;
+  margin: 0 auto 120px;
+  padding-top: 74px;
   grid-template-areas:
     'title image'
     '. image'
@@ -11,17 +12,6 @@
     '. image'
     'apps image';
 }
-
-/* @media screen and (max-width: 1222px) {
-  .workout {
-    margin: 0 10px;
-    gap: 100px;
-    grid-template-columns: 1fr 560px;
-    grid-template-areas: "title image"
-                          "paragraph image"
-                          "apps image";
-  }
-} */
 
 @media screen and (max-width: 320px) {
   .workout {

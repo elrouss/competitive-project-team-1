@@ -9,6 +9,7 @@
   position: relative;
   overflow: hidden;
   grid-area: button;
+  cursor: pointer;
 }
 
 .intro__button::before {
