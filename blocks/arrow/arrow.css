@@ -6,6 +6,7 @@
 
 .arrow:hover {
   opacity: .6;
+  cursor: pointer;
 }
 
 /*.arrow {
