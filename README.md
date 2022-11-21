@@ -1,6 +1,6 @@
 <div>
-  <a href="https://ibb.co/thNMvD4"><img src="https://i.ibb.co/MhjDt7s/2022-11-21-03-21-48.png" alt="2022-11-21-03-21-48" border="0" width="450"></a>
-  <a href="https://ibb.co/PDbq9sR"><img src="https://i.ibb.co/9ZfQVmJ/2022-11-21-03-22-04.png" alt="2022-11-21-03-22-04" border="0" width="450"></a>
+  <a href="https://ibb.co/thNMvD4"><img src="https://i.ibb.co/MhjDt7s/2022-11-21-03-21-48.png" alt="2022-11-21-03-21-48" border="0" width="400"></a>
+  <a href="https://ibb.co/PDbq9sR"><img src="https://i.ibb.co/9ZfQVmJ/2022-11-21-03-22-04.png" alt="2022-11-21-03-22-04" border="0" width="400"></a>
 </div>
 
 # Проект: "Велотренировки"
