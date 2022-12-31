@@ -7,7 +7,7 @@
   grid-template-columns: 1fr;
   grid-template-areas:
     'title'
-    'subtitle'
+    'paragraph'
     'slider'
     'buttons';
 }
@@ -22,6 +22,6 @@
     grid-template-areas:
       'title buttons'
       'slider slider'
-      'subtitle subtitle';
+      'paragraph paragraph';
   }
 }

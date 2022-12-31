@@ -9,9 +9,9 @@
   grid-area: paragraph;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 770px) {
   .section-paragraph {
-    font-size: 12px;
+    font-size: calc(12px + (6 + 6 * .7) * (100vw - 320px) / 770);
     line-height: calc(18 / 12 * 100%);
     margin: 41px 0 0;
     max-width: 284px;

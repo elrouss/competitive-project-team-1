@@ -1,10 +1,11 @@
-.roads__subtitle {
+.roads__paragraph {
   margin-top: 44px;
-  grid-area: subtitle;
+  grid-area: paragraph;
 }
 
 @media screen and (max-width: 770px) {
-  .roads__subtitle {
+  .roads__paragraph {
     margin-top: 36px;
+    max-width: 100%;
   }
 }
