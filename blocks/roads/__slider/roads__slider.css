@@ -1,7 +1,8 @@
 .roads__slider {
   margin: 0;
-  padding: 80px 0 0;
+  padding: 83px 0 0;
   list-style-type: none;
+  grid-area: slider;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,4 +12,15 @@
 
 .roads__slider:first-of-type {
   position: relative;
+}
+
+@media screen and (max-width: 770px) {
+  .roads__slider {
+    padding-top: calc(40px + (43 + 43 * .7) * (100vw - 320px) / 770);
+    display: block;
+  }
+
+  .roads__slider > li:nth-child(2) {
+    display: none;
+  }
 }

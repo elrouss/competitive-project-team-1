@@ -3,3 +3,10 @@
   max-height: 400px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 770px) {
+  .roads__photo {
+    max-width: calc(284px + (399.38 + 399.38 * .7) * (100vw - 320px) / 770);
+    width: 100%;
+  }
+}

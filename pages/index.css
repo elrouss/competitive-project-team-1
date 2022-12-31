@@ -32,12 +32,15 @@
 @import url(../blocks/ride/__author-vocation/ride__author-vocation.css);
 @import url(../blocks/line/ride__line.css);
 
+/* ROADS (WITH SLIDER) */
 @import url(../blocks/roads/roads.css);
+@import url(../blocks/roads/__title/roads__title.css);
+@import url(../blocks/roads/__subtitle/roads__subtitle.css);
 @import url(../blocks/roads/__slider/roads__slider.css);
+@import url(../blocks/roads/__slider-arrow/roads__slider-arrow.css);
+@import url(../blocks/roads/__slider-arrows/roads__slider-arrows.css);
 @import url(../blocks/roads/__photo/roads__photo.css);
 @import url(../blocks/roads/__vector/roads__vector.css);
-@import url(../blocks/roads/__slider-arrows/roads__slider-arrows.css);
-@import url(../blocks/arrow/arrow.css);
 
 @import url(../blocks/bicycles/bicycles.css);
 @import url(../blocks/bicycles/__gallery/bicycles__gallery.css);
