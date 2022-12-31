@@ -1,0 +1,33 @@
+.roads__slider-arrow {
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #EBEBEB;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 7px 16px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: opacity .6s ease;
+}
+
+.roads__slider-arrow:hover {
+  opacity: .6;
+}
+
+.roads__slider-arrow:nth-child(1) {
+  background-image: url(../../../images/slider-arrow-left.svg);
+}
+
+.roads__slider-arrow:nth-child(2) {
+  background-image: url(../../../images/slider-arrow-right.svg);
+}
+
+@media screen and (max-width: 770px) {
+  .roads__slider-arrow {
+    width: calc(24px + (26 + 26 * .7) * (100vw - 320px) / 770);
+    height: calc(24px + (26 + 26 * .7) * (100vw - 320px) / 770);
+    background-size: 4.5px 10px;
+  }
+}
