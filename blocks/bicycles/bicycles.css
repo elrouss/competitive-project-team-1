@@ -1,23 +1,29 @@
 .bicycles {
+  margin: 0;
+  margin-top: 120px;
+  margin-bottom: 121px;
+  margin-left: calc(120/1440 * 100%);
+  padding-top: 0;
   max-width: 1200px;
-  margin: 0 120px 121px;
-  padding-top: 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
   grid-template-areas:
     'title . sidebar'
-    'image image image';
+    'gallery gallery gallery';
+  overflow: hidden;
 }
 
-/*@media screen and (max-width: 320px) {
+@media screen and (max-width: 770px) {
   .bicycles {
-    max-width: 284px;
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-top: 80px;
+    margin-left: calc(18/320 * 100%);
+    margin-right: calc(18/320 * 100%);
+    border-top: 1px solid #e3e3e3;
     grid-template-columns: 1fr;
     grid-template-areas:
       'title'
-      'image';
+      'dropdown'
+      'gallery'
+      'pagination';
   }
-}*/
+}

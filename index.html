@@ -65,7 +65,8 @@
       <ul class="roads__slider">
         <li><img src="./images/highway.jpg" alt="Дорога в горах (серпантин)" class="roads__photo"></li>
         <li><img src="./images/forest-path.jpg" alt="Дорога в лесу" class="roads__photo"></li>
-        <li><img src="./images/vector-highway.svg" alt="Иконка с изображением линии местности" class="roads__vector"></li>
+        <li><img src="./images/vector-highway.svg" alt="Иконка с изображением линии местности" class="roads__vector">
+        </li>
       </ul>
       <div class="roads__slider-arrows">
         <button type="button" aria-label="Переключение слайдера влево" class="roads__slider-arrow"></button>
@@ -74,41 +75,58 @@
     </section>
 
     <section class="bicycles" id="bike">
-      <h2 class="section-title">Велосипеды</h2>
-      <nav class="bicycles__sidebar">
-        <ul class="bicycles__links">
-          <li><a href="" class="bicycles__link bicycles__link_selected">Шоссе</a></li>
-          <li><a href="" class="bicycles__link">Грэвел</a></li>
-          <li><a href="" class="bicycles__link">ТТ</a></li>
-        </ul>
-      </nav>
-      <ul class="bicycles__gallery">
-        <li>
+      <h2 class="section-title bicycles__title">Велосипеды</h2>
+      <ul class="bicycles__links">
+        <li><a href="" class="bicycles__link bicycles__link_selected">Шоссе</a></li>
+        <li><a href="" class="bicycles__link">Грэвел</a></li>
+        <li><a href="" class="bicycles__link">ТТ</a></li>
+      </ul>
+      <div class="bicycles__gallery-dropdown">
+        <select>
+          <option value="1">Шоссе</option>
+          <option value="2">Грэвел</option>
+          <option value="3">ТТ</option>
+        </select>
+      </div>
+      <div class="bicycles__gallery">
+        <article class="bicycles__gallery-card">
           <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
             target="_blank">
-            <img src="./images/Cervelo-Caledonia-5.png" alt="Велосипед модели Cervelo Caledonia-5"
+            <img src="./images/Cervelo-Caledonia-5.png" alt="Велосипед модели &laquo;Cervelo Caledonia-5&raquo;"
               class="bicycles__gallery-image">
           </a>
           <h3 class="bicycles__gallery-image-caption" lang="en">Cervelo Caledonia-5</h3>
-        </li>
-        <li>
+        </article>
+        <article class="bicycles__gallery-card">
           <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
             target="_blank">
-            <img src="./images/Cannondale-Systemsix-Himod.png" alt="Велосипед модели Cannondale Systemsix Himod"
+            <img src="./images/Cannondale-Systemsix-Himod.png" alt="Велосипед модели &laquo;Cannondale Systemsix Himod&raquo;"
               class="bicycles__gallery-image">
           </a>
           <h3 class="bicycles__gallery-image-caption" lang="en">Cannondale Systemsix Himod</h3>
-        </li>
-        <li>
+        </article>
+        <article class="bicycles__gallery-card">
           <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
             target="_blank">
-            <img src="./images/Trek-Domane-SL-7.png" alt="Велосипед модели Trek Domane SL-7"
+            <img src="./images/Trek-Domane-SL-7.png" alt="Велосипед модели &laquo;Trek Domane SL-7&raquo;"
               class="bicycles__gallery-image">
           </a>
           <h3 class="bicycles__gallery-image-caption" lang="en">Trek Domane SL-7</h3>
+        </article>
+      </div>
+      <ul class="bicycles__gallery-pagination">
+        <li>
+          <button type="button" class="bicycles__gallery-pagination-btn bicycles__gallery-pagination-btn_type_active"></button>
+        </li>
+        <li>
+          <button type="button" class="bicycles__gallery-pagination-btn"></button>
+        </li>
+        <li>
+          <button type="button" class="bicycles__gallery-pagination-btn"></button>
         </li>
       </ul>
     </section>
+
     <section class="workout" id="training">
       <h2 class="workout__title">Тренировки</h2>
       <p class="section-paragraph">

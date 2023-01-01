@@ -1,0 +1,10 @@
+.bicycles__title {
+  grid-area: title;
+  margin: 0;
+}
+
+@media screen and (max-width: 770px) {
+  .bicycles__title {
+    margin-top: 39px;
+  }
+}

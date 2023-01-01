@@ -1,0 +1,23 @@
+.bicycles__gallery-pagination {
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+  display: none;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 770px) {
+  .bicycles__gallery-pagination {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    grid-area: pagination;
+    max-width: calc(284px + (399.374 + 399.374 * .7) * (100vw - 320px) / 770);
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .bicycles__gallery-pagination {
+    max-width: calc(284px + (55.95 + 55.95 * .7) * (100vw - 320px) / 584);
+  }
+}

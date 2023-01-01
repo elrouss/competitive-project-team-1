@@ -1,0 +1,38 @@
+.bicycles__gallery-dropdown {
+  display: none;
+  grid-area: dropdown;
+  margin-top: 40px;
+  width: 114px;
+  height: 30px;
+  border: 1px solid #E3E3E3;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(14 / 11 * 100%);
+  color: #151515;
+  position: relative;
+}
+
+.bicycles__gallery-dropdown::before {
+  content: url(../../../images/dropdown-arrow-down.svg);
+  width: 4.5px;
+  height: 10px;
+  position: absolute;
+  top: 8px;
+  left: 90px;
+}
+
+.bicycles__gallery-dropdown > select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 8px 64px 8px 12px;
+  line-height: inherit;
+  outline: none;
+}
+
+@media screen and (max-width: 770px) {
+  .bicycles__gallery-dropdown {
+    display: block;
+  }
+}
