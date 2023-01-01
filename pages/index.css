@@ -42,11 +42,17 @@
 @import url(../blocks/roads/__photo/roads__photo.css);
 @import url(../blocks/roads/__vector/roads__vector.css);
 
+/* BICYCLES */
 @import url(../blocks/bicycles/bicycles.css);
+@import url(../blocks/bicycles/__title/bicycles__title.css);
 @import url(../blocks/bicycles/__gallery/bicycles__gallery.css);
+@import url(../blocks/bicycles/__gallery-card/bicycles__gallery-card.css);
 @import url(../blocks/bicycles/__gallery-image/bicycles__gallery-image.css);
 @import url(../blocks/bicycles/__gallery-image-caption/bicycles__gallery-image-caption.css);
-@import url(../blocks/bicycles/__sidebar/bicycles__sidebar.css);
+@import url(../blocks/bicycles/__gallery-dropdown/bicycles__gallery-dropdown.css);
+@import url(../blocks/bicycles/__gallery-pagination/bicycles__gallery-pagination.css);
+@import url(../blocks/bicycles/__gallery-pagination-btn/bicycles__gallery-pagination-btn.css);
+@import url(../blocks/bicycles/__gallery-pagination-btn/_type/bicycles__gallery-pagination-btn_type_active.css);
 @import url(../blocks/bicycles/__links/bicycles__links.css);
 @import url(../blocks/bicycles/__link/bicycles__link.css);
 @import url(../blocks/bicycles/__link/_selected/bicycles__link_selected.css);
