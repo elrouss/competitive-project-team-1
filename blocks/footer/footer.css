@@ -1,6 +1,13 @@
 .footer {
   margin: 0;
+  padding-left: calc(120 / 1440 * 100%);
   background-color: #efefef;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 770px) {
+  .footer {
+    padding-left: calc(18 / 320 * 100%);
+  }
 }
