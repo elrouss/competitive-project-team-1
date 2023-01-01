@@ -17,6 +17,7 @@
   .bicycles {
     margin-top: 80px;
     margin-left: calc(18/320 * 100%);
+    margin-bottom: 75px;
     margin-right: calc(18/320 * 100%);
     border-top: 1px solid #e3e3e3;
     grid-template-columns: 1fr;

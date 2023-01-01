@@ -2,8 +2,8 @@
   border: 1px solid #c7c7c7;
   background: rgba(239, 239, 239, .5);
   border-radius: 4px;
-  min-width: 354px;
-  min-height: 46px;
+  width: 339px;
+  height: 46px;
   padding-left: 17px;
 }
 
@@ -35,8 +35,8 @@
   color: transparent;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 770px) {
   .form__contact-email {
-    min-width: 264px;
+    width: calc(263px + (76 + 76 * .7) * (100vw - 320px) / 770);
   }
 }

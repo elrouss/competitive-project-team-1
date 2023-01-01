@@ -17,12 +17,14 @@
   .workout {
     max-width: 284px;
     margin: 0 auto;
+    padding-top: 40px;
     grid-template-columns: 1fr;
     grid-template-areas:
       'title'
       'image'
       'paragraph'
       'apps';
-    padding-bottom: 60px;
+    padding-bottom: 53px;
+    border-top: 1px solid #e3e3e3;
   }
 }
