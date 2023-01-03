@@ -5,9 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="distribution" content="global">
-  <meta name="description" content="Сайт рассказывает о разнообразии маршрутов для велотренировок,
-    различных типах велосипедов, полезных сервисах и приложениях для построения тренировочного плана.
-    Он реализован в качестве конкурсной работы студентов Яндекс.Практикума, обучающихся профессии веб-разработчика.">
+  <meta name="description"
+    content="Сайт рассказывает о разнообразии маршрутов для велотренировок, различных типах велосипедов, полезных сервисах и приложениях для построения тренировочного плана.">
   <meta name="author" content="Софья Пешехонова, Борис Зашляпин">
   <title>Велотренировки</title>
   <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
@@ -16,6 +15,7 @@
   <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="./vendor/splidejs/dist/css/splide.min.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
@@ -63,20 +63,34 @@
       <div class="line"></div>
     </section>
 
-    <section class="roads" id="roadway" aria-label="Cлайдер с описанием велотренировок на различных местностях">
+    <section class="splide roads" id="roadway" aria-label="Cлайдер с описанием велотренировок на различных местностях"
+      role="group">
       <h2 class="section-title roads__title">Шоссе</h2>
       <p class="section-paragraph roads__paragraph">
         На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины.
         Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.
-      <ul class="roads__slider">
-        <li><img src="./images/highway.jpg" alt="Дорога в горах (серпантин)" class="roads__photo"></li>
-        <li><img src="./images/forest-path.jpg" alt="Дорога в лесу" class="roads__photo"></li>
-        <li><img src="./images/vector-highway.svg" alt="Иконка с изображением линии местности" class="roads__vector">
-        </li>
-      </ul>
-      <div class="roads__slider-arrows">
-        <button type="button" aria-label="Переключение слайдера влево" class="roads__slider-arrow"></button>
-        <button type="button" aria-label="Переключение слайдера вправо" class="roads__slider-arrow"></button>
+      </p>
+      <div class="splide__track roads__container">
+        <ul class="splide__list">
+          <li class="splide__slide roads__slide">
+            <img src="./images/highway.jpg" alt="Дорога в горах (серпантин)" class="roads__photo">
+            <img src="./images/vector-highway.svg" alt="Иконка с изображением линии местности" class="roads__vector">
+          </li>
+          <li class="splide__slide roads__slide">
+            <img src="./images/forest-path.jpg" alt="Дорога в лесу" class="roads__photo">
+            <img src="./images/vector-gravel.svg" alt="Иконка с изображением линии местности" class="roads__vector">
+          </li>
+          <li class="splide__slide roads__slide">
+            <img src="./images/TT.jpg" alt="Равнинный асфальт" class="roads__photo">
+            <img src="./images/vector-tt.svg" alt="Иконка с изображением линии местности" class="roads__vector">
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="splide__arrows">
+          <button class="splide__arrow splide__arrow--prev roads__slider-arrow roads__slider-arrow-prev"></button>
+          <button class="splide__arrow splide__arrow--next roads__slider-arrow roads__slider-arrow-next"></button>
+        </div>
       </div>
     </section>
 
@@ -106,8 +120,8 @@
         <article class="bicycles__gallery-card">
           <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
             target="_blank">
-            <img src="./images/Cannondale-Systemsix-Himod.png" alt="Велосипед модели &laquo;Cannondale Systemsix Himod&raquo;"
-              class="bicycles__gallery-image">
+            <img src="./images/Cannondale-Systemsix-Himod.png"
+              alt="Велосипед модели &laquo;Cannondale Systemsix Himod&raquo;" class="bicycles__gallery-image">
           </a>
           <h3 class="bicycles__gallery-image-caption" lang="en">Cannondale Systemsix Himod</h3>
         </article>
@@ -122,7 +136,8 @@
       </div>
       <ul class="bicycles__gallery-pagination">
         <li>
-          <button type="button" class="bicycles__gallery-pagination-btn bicycles__gallery-pagination-btn_type_active"></button>
+          <button type="button"
+            class="bicycles__gallery-pagination-btn bicycles__gallery-pagination-btn_type_active"></button>
         </li>
         <li>
           <button type="button" class="bicycles__gallery-pagination-btn"></button>
@@ -148,6 +163,7 @@
       <div class="line"></div>
     </section>
   </main>
+
   <footer class="footer">
     <h2 class="footer__title">Подпишитесь на рассылку &mdash;</h2>
     <form class="form">
@@ -157,6 +173,12 @@
     </form>
     <p class="footer__copyright" lang="en">&copy; Road Club 2021</p>
   </footer>
+
+  <script src="./vendor/splidejs/dist/js/splide.min.js"></script>
+  <script src="./scripts/utils/constants.js"></script>
+  <script src="./scripts/splide/sliders.js"></script>
+  <script src="./scripts/pages/index.js"></script>
+
 </body>
 
 </html>

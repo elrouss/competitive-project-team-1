@@ -1,27 +1,27 @@
 .roads {
-  margin-top: 123px;
+  padding-top: 73px;
   margin-bottom: 46px;
   max-width: 1320px;
   margin-left: calc(120/1440 * 100%);
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-    'title'
-    'paragraph'
-    'slider'
-    'buttons';
+  'title'
+  'paragraph'
+  'slider';
+
 }
 
 @media screen and (max-width: 770px) {
   .roads {
+    padding-top: 0;
     margin-top: 80px;
     margin-left: calc(18/320 * 100%);
     margin-right: calc(18/320 * 100%);
     border-top: 1px solid #e3e3e3;
-    grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      'title buttons'
-      'slider slider'
-      'paragraph paragraph';
+    'title'
+    'slider'
+    'paragraph';
   }
 }

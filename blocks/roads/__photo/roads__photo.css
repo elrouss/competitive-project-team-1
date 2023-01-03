@@ -1,12 +1,13 @@
 .roads__photo {
-  max-width: 650px;
+  width: 650px;
   max-height: 400px;
+  height: 100%;
   object-fit: cover;
 }
 
 @media screen and (max-width: 770px) {
   .roads__photo {
-    max-width: calc(284px + (399.38 + 399.38 * .7) * (100vw - 320px) / 770);
-    width: 100%;
+    width: calc(284px + (400 + 400 * .7) * (100vw - 320px) / 770);
+    max-height: calc(175px + (225 + 225 * .7) * (100vw - 320px) / 770);
   }
 }

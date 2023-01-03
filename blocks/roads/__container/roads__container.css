@@ -1,0 +1,10 @@
+.roads__container {
+  grid-area: slider;
+  padding-top: 83px;
+}
+
+@media screen and (max-width: 770px) {
+  .roads__container {
+    padding-top: 40px;
+  }
+}
