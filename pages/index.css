@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../variables/variables.css);
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/content/content.css);
@@ -34,13 +35,14 @@
 
 /* ROADS (WITH SLIDER) */
 @import url(../blocks/roads/roads.css);
+@import url(../blocks/roads/__container/roads__container.css);
 @import url(../blocks/roads/__title/roads__title.css);
 @import url(../blocks/roads/__paragraph/roads__paragraph.css);
-@import url(../blocks/roads/__slider/roads__slider.css);
+@import url(../blocks/roads/__slide/roads__slide.css);
 @import url(../blocks/roads/__slider-arrow/roads__slider-arrow.css);
-@import url(../blocks/roads/__slider-arrows/roads__slider-arrows.css);
 @import url(../blocks/roads/__photo/roads__photo.css);
 @import url(../blocks/roads/__vector/roads__vector.css);
+@import url(../blocks/roads/__vector/_visibility/roads__vector_visibility_is-visible.css);
 
 /* BICYCLES */
 @import url(../blocks/bicycles/bicycles.css);

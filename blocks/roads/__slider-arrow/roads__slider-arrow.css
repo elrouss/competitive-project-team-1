@@ -9,19 +9,27 @@
   border-radius: 50%;
   border: none;
   cursor: pointer;
+  opacity: 1;
   transition: opacity .6s ease;
+  top: 110%;
 }
 
 .roads__slider-arrow:hover {
   opacity: .6;
 }
 
+.roads__slider-arrow:focus {
+  outline: none;
+}
+
 .roads__slider-arrow:nth-child(1) {
   background-image: url(../../../images/slider-arrow-left.svg);
+  left: 0;
 }
 
 .roads__slider-arrow:nth-child(2) {
   background-image: url(../../../images/slider-arrow-right.svg);
+  left: 70px;
 }
 
 @media screen and (max-width: 770px) {
@@ -29,5 +37,14 @@
     width: calc(24px + (26 + 26 * .7) * (100vw - 320px) / 770);
     height: calc(24px + (26 + 26 * .7) * (100vw - 320px) / 770);
     background-size: 4.5px 10px;
+    top: calc(58px + (12 + 12 * .7) * (100vw - 320px) / 770);
+  }
+
+  .roads__slider-arrow:nth-child(1) {
+    left: calc(226px + (340 + 340 * .7) * (100vw - 320px) / 770);
+  }
+
+  .roads__slider-arrow:nth-child(2) {
+    left: calc(260px + (374 + 374 * .7) * (100vw - 320px) / 770);
   }
 }
