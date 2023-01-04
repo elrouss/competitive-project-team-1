@@ -49,6 +49,7 @@
 @import url(../blocks/bicycles/__title/bicycles__title.css);
 @import url(../blocks/bicycles/__gallery/bicycles__gallery.css);
 @import url(../blocks/bicycles/__gallery-card/bicycles__gallery-card.css);
+@import url(../blocks/bicycles/__gallery-card/_is-visible/bicycles__gallery-card_is-visibile.css);
 @import url(../blocks/bicycles/__gallery-image/bicycles__gallery-image.css);
 @import url(../blocks/bicycles/__gallery-image-caption/bicycles__gallery-image-caption.css);
 @import url(../blocks/bicycles/__gallery-dropdown/bicycles__gallery-dropdown.css);

@@ -97,9 +97,15 @@
     <section class="bicycles" id="bike">
       <h2 class="section-title bicycles__title">Велосипеды</h2>
       <ul class="bicycles__links">
-        <li><a href="" class="bicycles__link bicycles__link_selected">Шоссе</a></li>
-        <li><a href="" class="bicycles__link">Грэвел</a></li>
-        <li><a href="" class="bicycles__link">ТТ</a></li>
+        <li>
+          <button type="button" aria-label="Переключение карточек в галерее" class="bicycles__link bicycles__link_selected" data-id="highway">Шоссе</button>
+        </li>
+        <li>
+          <button type="button" aria-label="Переключение карточек в галерее" class="bicycles__link" data-id="gravel">Грэвел</button>
+        </li>
+        <li>
+          <button type="button" aria-label="Переключение карточек в галерее" class="bicycles__link" data-id="timeTrial">ТТ</button>
+        </li>
       </ul>
       <div class="bicycles__gallery-dropdown">
         <select>
@@ -108,32 +114,7 @@
           <option value="3">ТТ</option>
         </select>
       </div>
-      <div class="bicycles__gallery">
-        <article class="bicycles__gallery-card">
-          <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
-            target="_blank">
-            <img src="./images/Cervelo-Caledonia-5.png" alt="Велосипед модели &laquo;Cervelo Caledonia-5&raquo;"
-              class="bicycles__gallery-image">
-          </a>
-          <h3 class="bicycles__gallery-image-caption" lang="en">Cervelo Caledonia-5</h3>
-        </article>
-        <article class="bicycles__gallery-card">
-          <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
-            target="_blank">
-            <img src="./images/Cannondale-Systemsix-Himod.png"
-              alt="Велосипед модели &laquo;Cannondale Systemsix Himod&raquo;" class="bicycles__gallery-image">
-          </a>
-          <h3 class="bicycles__gallery-image-caption" lang="en">Cannondale Systemsix Himod</h3>
-        </article>
-        <article class="bicycles__gallery-card">
-          <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
-            target="_blank">
-            <img src="./images/Trek-Domane-SL-7.png" alt="Велосипед модели &laquo;Trek Domane SL-7&raquo;"
-              class="bicycles__gallery-image">
-          </a>
-          <h3 class="bicycles__gallery-image-caption" lang="en">Trek Domane SL-7</h3>
-        </article>
-      </div>
+      <div class="bicycles__gallery"></div>
       <ul class="bicycles__gallery-pagination">
         <li>
           <button type="button"
@@ -156,8 +137,8 @@
         тренировочный план.
       </p>
       <ul class="workout__apps">
-        <li class="workout__app"><a href="https://www.strava.com" class="workout__links link" lang="en">Strava</a></li>
-        <li class="workout__app"><a href="https://www.komoot.com" class="workout__links link" lang="en">Komoot</a></li>
+        <li class="workout__app"><a href="https://www.strava.com" target="_blank" class="workout__links link" lang="en">Strava</a></li>
+        <li class="workout__app"><a href="https://www.komoot.com" target="_blank" class="workout__links link" lang="en">Komoot</a></li>
       </ul>
       <img class="workout__image" src="./images/workout.jpg" alt="Дорога в лесу">
       <div class="line"></div>
@@ -174,8 +155,21 @@
     <p class="footer__copyright" lang="en">&copy; Road Club 2021</p>
   </footer>
 
+  <template class="bicycles__card-template">
+    <article class="bicycles__gallery-card" id="#">
+      <a href=""
+        target="_blank" class="bicycles__gallery-link">
+        <img src="#" alt=""
+          class="bicycles__gallery-image">
+      </a>
+      <h3 class="bicycles__gallery-image-caption" lang="en"></h3>
+    </article>
+  </template>
+
   <script src="./vendor/splidejs/dist/js/splide.min.js"></script>
   <script src="./scripts/utils/constants.js"></script>
+  <script src="./scripts/utils/sliderSectionRoads.js"></script>
+  <script src="./scripts/utils/initialCardsBicycles.js"></script>
   <script src="./scripts/splide/sliders.js"></script>
   <script src="./scripts/pages/index.js"></script>
 

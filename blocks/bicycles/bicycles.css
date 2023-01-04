@@ -1,9 +1,9 @@
 .bicycles {
   margin: 0;
-  margin-top: 223px;
+  margin-top: 150px;
   margin-bottom: 121px;
   margin-left: calc(120/1440 * 100%);
-  padding-top: 0;
+  padding-top: 74px;
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
