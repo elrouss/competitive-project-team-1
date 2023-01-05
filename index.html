@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="html">
 
 <head>
   <meta charset="UTF-8">
@@ -20,6 +20,7 @@
 </head>
 
 <body class="page">
+
   <header class="header">
     <nav class="header__menu">
       <ul class="header__items">
@@ -30,7 +31,9 @@
     </nav>
     <div class="header__icon"></div>
   </header>
+
   <main class="content">
+
     <section class="intro">
       <h1 class="section-title">Шоссе, ТТ и&nbsp;Грэвел</h1>
       <p class="section-paragraph">
@@ -50,6 +53,7 @@
         <img class="intro__road" src="./images/Intro-MountainRoad.jpg" alt="Велотропа в горах">
       </div>
     </section>
+
     <section class="ride" aria-label="Секция с цитатой велогонщика Эдди Меркса и фотографией">
       <img class="ride__picture" src="./images/long-trip.jpg" alt="Дорога по холмистой местности">
       <article class="ride__text" aria-label="Цитата">
@@ -60,7 +64,6 @@
           <p class="ride__author-vocation">Велогонщик</p>
         </div>
       </article>
-      <div class="line"></div>
     </section>
 
     <section class="splide roads" id="roadway" aria-label="Cлайдер с описанием велотренировок на различных местностях"
@@ -97,55 +100,44 @@
     <section class="bicycles" id="bike">
       <h2 class="section-title bicycles__title">Велосипеды</h2>
       <ul class="bicycles__links">
-        <li><a href="" class="bicycles__link bicycles__link_selected">Шоссе</a></li>
-        <li><a href="" class="bicycles__link">Грэвел</a></li>
-        <li><a href="" class="bicycles__link">ТТ</a></li>
+        <li>
+          <button type="button" aria-label="Переключение карточек в галерее"
+            class="bicycles__link bicycles__link_selected" data-id="highway">Шоссе</button>
+        </li>
+        <li>
+          <button type="button" aria-label="Переключение карточек в галерее" class="bicycles__link"
+            data-id="gravel">Грэвел</button>
+        </li>
+        <li>
+          <button type="button" aria-label="Переключение карточек в галерее" class="bicycles__link"
+            data-id="timeTrial">ТТ</button>
+        </li>
       </ul>
-      <div class="bicycles__gallery-dropdown">
-        <select>
-          <option value="1">Шоссе</option>
-          <option value="2">Грэвел</option>
-          <option value="3">ТТ</option>
+      <form class="bicycles__gallery-dropdown">
+        <select id="dropdown">
+          <option value="highway">Шоссе</option>
+          <option value="gravel">Грэвел</option>
+          <option value="timeTrial">ТТ</option>
         </select>
+      </form>
+      <div class="splide bicycles__gallery bicycles__gallery_is-active" aria-label="Слайдер с карточками велосипедов" role="group" id="highwayGallery">
+        <div class="splide__track">
+          <div class="splide__list"></div>
+        </div>
+        <ul class="splide__pagination bicycles__gallery-pagination"></ul>
       </div>
-      <div class="bicycles__gallery">
-        <article class="bicycles__gallery-card">
-          <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
-            target="_blank">
-            <img src="./images/Cervelo-Caledonia-5.png" alt="Велосипед модели &laquo;Cervelo Caledonia-5&raquo;"
-              class="bicycles__gallery-image">
-          </a>
-          <h3 class="bicycles__gallery-image-caption" lang="en">Cervelo Caledonia-5</h3>
-        </article>
-        <article class="bicycles__gallery-card">
-          <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
-            target="_blank">
-            <img src="./images/Cannondale-Systemsix-Himod.png"
-              alt="Велосипед модели &laquo;Cannondale Systemsix Himod&raquo;" class="bicycles__gallery-image">
-          </a>
-          <h3 class="bicycles__gallery-image-caption" lang="en">Cannondale Systemsix Himod</h3>
-        </article>
-        <article class="bicycles__gallery-card">
-          <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
-            target="_blank">
-            <img src="./images/Trek-Domane-SL-7.png" alt="Велосипед модели &laquo;Trek Domane SL-7&raquo;"
-              class="bicycles__gallery-image">
-          </a>
-          <h3 class="bicycles__gallery-image-caption" lang="en">Trek Domane SL-7</h3>
-        </article>
+      <div class="splide bicycles__gallery" aria-label="Слайдер с карточками велосипедов" role="group" id="gravelGallery">
+        <div class="splide__track">
+          <div class="splide__list"></div>
+        </div>
+        <ul class="splide__pagination bicycles__gallery-pagination"></ul>
       </div>
-      <ul class="bicycles__gallery-pagination">
-        <li>
-          <button type="button"
-            class="bicycles__gallery-pagination-btn bicycles__gallery-pagination-btn_type_active"></button>
-        </li>
-        <li>
-          <button type="button" class="bicycles__gallery-pagination-btn"></button>
-        </li>
-        <li>
-          <button type="button" class="bicycles__gallery-pagination-btn"></button>
-        </li>
-      </ul>
+      <div class="splide bicycles__gallery" aria-label="Слайдер с карточками велосипедов" role="group" id="timeTrialGallery">
+        <div class="splide__track">
+          <div class="splide__list"></div>
+        </div>
+        <ul class="splide__pagination bicycles__gallery-pagination"></ul>
+      </div>
     </section>
 
     <section class="workout" id="training">
@@ -156,11 +148,12 @@
         тренировочный план.
       </p>
       <ul class="workout__apps">
-        <li class="workout__app"><a href="https://www.strava.com" class="workout__links link" lang="en">Strava</a></li>
-        <li class="workout__app"><a href="https://www.komoot.com" class="workout__links link" lang="en">Komoot</a></li>
+        <li class="workout__app"><a href="https://www.strava.com" target="_blank" class="workout__links link"
+            lang="en">Strava</a></li>
+        <li class="workout__app"><a href="https://www.komoot.com" target="_blank" class="workout__links link"
+            lang="en">Komoot</a></li>
       </ul>
       <img class="workout__image" src="./images/workout.jpg" alt="Дорога в лесу">
-      <div class="line"></div>
     </section>
   </main>
 
@@ -174,10 +167,21 @@
     <p class="footer__copyright" lang="en">&copy; Road Club 2021</p>
   </footer>
 
-  <script src="./vendor/splidejs/dist/js/splide.min.js"></script>
+  <template class="bicycles__card-template">
+    <article class="splide__slide bicycles__gallery-card">
+      <a href="" target="_blank" class="bicycles__gallery-link">
+        <img src="#" alt="" class="bicycles__gallery-image">
+      </a>
+      <h3 class="bicycles__gallery-image-caption" lang="en"></h3>
+    </article>
+  </template>
+
   <script src="./scripts/utils/constants.js"></script>
-  <script src="./scripts/splide/sliders.js"></script>
+  <script src="./scripts/utils/initialCardsBicycles.js"></script>
+  <script src="./scripts/utils/sliderSectionRoads.js"></script>
   <script src="./scripts/pages/index.js"></script>
+  <script src="./vendor/splidejs/dist/js/splide.min.js"></script>
+  <script src="./scripts/splide/sliders.js"></script>
 
 </body>
 

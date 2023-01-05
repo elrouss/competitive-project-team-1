@@ -1,16 +1,15 @@
 .bicycles {
   margin: 0;
-  margin-top: 223px;
+  margin-top: 150px;
   margin-bottom: 121px;
   margin-left: calc(120/1440 * 100%);
-  padding-top: 0;
+  padding-top: 74px;
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
-    'title . sidebar'
-    'gallery gallery gallery';
-  overflow: hidden;
+  'title . sidebar'
+  'gallery gallery gallery';
 }
 
 @media screen and (max-width: 770px) {
@@ -19,12 +18,12 @@
     margin-left: calc(18/320 * 100%);
     margin-bottom: 75px;
     margin-right: calc(18/320 * 100%);
+    padding-top: 0;
     border-top: 1px solid #e3e3e3;
     grid-template-columns: 1fr;
     grid-template-areas:
-      'title'
-      'dropdown'
-      'gallery'
-      'pagination';
+    'title'
+    'dropdown'
+    'gallery';
   }
 }

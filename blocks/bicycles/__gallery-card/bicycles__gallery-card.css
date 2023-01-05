@@ -1,10 +1,5 @@
 .bicycles__gallery-card {
   grid-area: card;
   position: relative;
-}
-
-@media screen and (max-width: 584px) {
-  .bicycles__gallery-card:nth-child(n + 2) {
-    display: none;
-  }
+  margin-right: 30px;
 }

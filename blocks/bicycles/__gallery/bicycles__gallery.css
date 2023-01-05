@@ -1,17 +1,15 @@
 .bicycles__gallery {
+  display: none;
   margin: 0;
   padding: 117px 0 0;
   max-width: 1200px;
-  list-style-type: none;
   grid-area: gallery;
-  display: flex;
-  justify-content: space-between;
-  column-gap: 30px;
-  align-self: center;
 }
 
 @media screen and (max-width: 770px) {
   .bicycles__gallery {
     padding-top: 19px;
+    padding-bottom: 27px;
+    overflow: hidden;
   }
 }
