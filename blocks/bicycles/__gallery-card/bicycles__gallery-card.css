@@ -1,11 +1,5 @@
 .bicycles__gallery-card {
-  display: none;
   grid-area: card;
   position: relative;
+  margin-right: 30px;
 }
-
-/* @media screen and (max-width: 584px) {
-  .bicycles__gallery-card:nth-child(n + 2) {
-    display: none;
-  }
-} */

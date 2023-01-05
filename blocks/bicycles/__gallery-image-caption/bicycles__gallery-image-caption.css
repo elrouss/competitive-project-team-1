@@ -1,6 +1,6 @@
 .bicycles__gallery-image-caption {
   margin: 0;
-  padding-top: 18px;
+  padding-top: 22px;
   padding-left: 6px;
   font-weight: 600;
   font-size: 18px;
@@ -13,7 +13,9 @@
     font-size: 14px;
     line-height: calc(18 / 14 * 100%);
     position: absolute;
-    bottom: 20px;
-    left: calc(72px + (53 + 53 * .7) * (100vw - 320px) / 770);
+    bottom: 5%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
   }
 }

@@ -1,8 +1,7 @@
 .bicycles__gallery-pagination-btn {
+  margin: 0;
   padding: 0;
   width: 4px;
   height: 4px;
   background-color: #CACACA;
-  border: none;
-  border-radius: 50%;
 }

@@ -95,27 +95,49 @@ function createCardBicycle(card) {
   return cardItem;
 }
 
-function renderCardsBicycles(key) {
+function renderCardsBicycles(key, container) {
   Object.values(initialCardsBicycles[key]).forEach(card => {
-    galleryBicycles.append(createCardBicycle(card));
+    container.append(createCardBicycle(card));
   });
 }
 
-function toggleCardsBicycles(evt) {
+renderCardsBicycles(Object.keys(initialCardsBicycles)[0], galleryBicyclesSliderHighway);
+renderCardsBicycles(Object.keys(initialCardsBicycles)[1], galleryBicyclesSliderGravel);
+renderCardsBicycles(Object.keys(initialCardsBicycles)[2], galleryBicyclesSliderTimeTrial);
+
+function hideBicyclesGallery() {
+  galleryBicycles.forEach(gallery => {
+    gallery.classList.remove('bicycles__gallery_is-active');
+  });
+}
+
+function showCardsBicycles(key) {
+  if (key === 'highway') galleryBicyclesHighway.classList.add('bicycles__gallery_is-active');
+  if (key === 'gravel') galleryBicyclesGravel.classList.add('bicycles__gallery_is-active');
+  if (key === 'timeTrial') galleryBicyclesTimeTrial.classList.add('bicycles__gallery_is-active');
+}
+
+function toggleCardsBicyclesTabBar(evt) {
   const id = evt.target.dataset.id;
 
   if (id) {
     document.querySelectorAll('.bicycles__link').forEach(btn => {
       btn.classList.remove('bicycles__link_selected');
-    })
+    });
     evt.target.classList.add('bicycles__link_selected');
 
-    document.querySelectorAll('.bicycles__gallery-card').forEach(card => {
-      card.classList.remove('bicycles__gallery-card_is-visibile');
-    })
+    hideBicyclesGallery();
+    showCardsBicycles(id);
+  };
+}
 
-    renderCardsBicycles(id);
-  }
+function toggleCardsBicyclesDropdown(evt) {
+  const value = evt.target.value;
+
+  if (value) {
+    hideBicyclesGallery();
+    showCardsBicycles(value);
+  };
 }
 
 // ОБРАБОТЧИКИ СОБЫТИЙ
@@ -125,10 +147,9 @@ arrowPrevSliderSectionRoads.addEventListener('click', handleDecrementClick);
 arrowNextSliderSectionRoads.addEventListener('keydown', handleIncrementAndDecrementBtns);
 arrowPrevSliderSectionRoads.addEventListener('keydown', handleIncrementAndDecrementBtns);
 
-tabBarBicycles.addEventListener('click', toggleCardsBicycles);
+tabBarBicycles.addEventListener('click', toggleCardsBicyclesTabBar);
+dropdownBicycles.addEventListener('change', toggleCardsBicyclesDropdown);
 
 window.onload = () => {
   sliderIcons[0].classList.add('roads__vector_visibility_is-visible');
-
-  renderCardsBicycles(Object.keys(initialCardsBicycles)[0]);
 }
