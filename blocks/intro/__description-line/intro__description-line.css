@@ -1,4 +1,4 @@
 .intro__description-line {
-  border-top: 2px solid #d7d4d4;
+  border-top: 2px solid var(--complementary-second-tint-color_theme_light);
   width: 132px;
 }

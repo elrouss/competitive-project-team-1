@@ -1,5 +1,5 @@
 .bicycles__link_selected {
-  color: #151515;
+  color: var(--basic-second-tint-color_theme_light);
   font-weight: 600;
   opacity: 1;
   transition: opacity .7s ease;

@@ -2,7 +2,7 @@
   margin: 0;
   padding: 100px 0 60px;
   max-width: 123px;
-  color: #cfcfcf;
+  color: var(--complementary-third-tint-color_theme_light);
   font-weight: 600;
   font-size: 14px;
   line-height: calc(20 / 14 * 100%);

@@ -1,7 +1,7 @@
 .footer {
   margin: 0;
   padding-left: calc(120 / 1440 * 100%);
-  background-color: #efefef;
+  background-color: var(--basic-fourth-tint-color_theme_light);
   display: flex;
   flex-direction: column;
 }

@@ -1,6 +1,6 @@
 .form__contact-email {
-  border: 1px solid #c7c7c7;
-  background: rgba(239, 239, 239, .5);
+  border: var(--form-border_theme_light);
+  background-color: var(--basic-fourth-tint-color_theme_light);
   border-radius: 4px;
   width: 339px;
   height: 46px;
@@ -19,7 +19,7 @@
 
 .form__contact-email::placeholder {
   font-family: 'Inter';
-  color: #222;
+  color: var(--basic-third-tint-color_theme_light);
   font-weight: 500;
   font-size: 13px;
   line-height: calc(28 / 13 * 100%);
