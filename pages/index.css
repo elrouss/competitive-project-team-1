@@ -17,6 +17,8 @@
 @import url(../blocks/switcher-color-theme/switcher-color-theme.css);
 @import url(../blocks/switcher-color-theme/__btn-container/switcher-color-theme__btn-container.css);
 @import url(../blocks/switcher-color-theme/__btn/switcher-color-theme__btn.css);
+@import url(../blocks/switcher-color-theme/__btn/_movement/switcher-color-theme__btn_movement_light.css);
+@import url(../blocks/switcher-color-theme/__btn/_movement/switcher-color-theme__btn_movement_dark.css);
 
 /* HEADER */
 @import url(../blocks/header/header.css);

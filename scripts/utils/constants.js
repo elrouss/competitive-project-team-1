@@ -20,3 +20,7 @@ const galleryBicyclesSliderTimeTrial = galleryBicyclesTimeTrial.querySelector('.
 const cardTemplateBicycle = document.querySelector('.bicycles__card-template').content;
 const tabBarBicycles = document.querySelector('.bicycles__links');
 const dropdownBicycles = document.querySelector('#dropdown');
+
+// Переключение светлой/темной темы
+const themeBtnContainer = document.querySelector('.switcher-color-theme__btn-container');
+const themeBtn = document.querySelector('.switcher-color-theme__btn');

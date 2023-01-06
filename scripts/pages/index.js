@@ -140,6 +140,50 @@ function toggleCardsBicyclesDropdown(evt) {
   };
 }
 
+// Переключение светлой/темной темы
+function getCurrentTheme() {
+  let theme = window.matchMedia('(prefers-color-scheme: dark').matches
+  ? 'dark'
+  : 'light';
+
+  localStorage.getItem('cycling.theme')
+  ? theme = localStorage.getItem('cycling.theme')
+  : null;
+
+  return theme;
+}
+
+function loadTheme(theme) {
+  const root = document.querySelector(':root');
+  root.setAttribute('color-scheme', theme);
+}
+
+function considerStartPositionBtnTheme(theme) {
+  theme === 'light'
+  ? themeBtn.classList.add('switcher-color-theme__btn_movement_light')
+  : themeBtn.classList.add('switcher-color-theme__btn_movement_dark');
+}
+
+function moveThemeBtn() {
+  if (themeBtn.classList.contains('switcher-color-theme__btn_movement_light')) {
+    themeBtn.classList.remove('switcher-color-theme__btn_movement_light');
+    themeBtn.classList.add('switcher-color-theme__btn_movement_dark');
+  } else {
+    themeBtn.classList.remove('switcher-color-theme__btn_movement_dark');
+    themeBtn.classList.add('switcher-color-theme__btn_movement_light');
+  };
+}
+
+function toggleTheme() {
+  moveThemeBtn();
+
+  let theme = getCurrentTheme();
+  theme === 'dark' ? theme = 'light' : theme = 'dark';
+
+  localStorage.setItem('cycling.theme', theme);
+  loadTheme(theme);
+}
+
 // ОБРАБОТЧИКИ СОБЫТИЙ
 arrowNextSliderSectionRoads.addEventListener('click', handleIncrementClick);
 arrowPrevSliderSectionRoads.addEventListener('click', handleDecrementClick);
@@ -150,6 +194,11 @@ arrowPrevSliderSectionRoads.addEventListener('keydown', handleIncrementAndDecrem
 tabBarBicycles.addEventListener('click', toggleCardsBicyclesTabBar);
 dropdownBicycles.addEventListener('change', toggleCardsBicyclesDropdown);
 
-window.onload = () => {
+themeBtnContainer.addEventListener('click', toggleTheme);
+
+window.addEventListener('DOMContentLoaded', () => {
+  loadTheme(getCurrentTheme());
+  considerStartPositionBtnTheme(getCurrentTheme());
+
   sliderIcons[0].classList.add('roads__vector_visibility_is-visible');
-}
+})
