@@ -14,6 +14,10 @@
 @import url(../blocks/section-paragraph/section-paragraph.css);
 @import url(../blocks/link/link.css);
 
+@import url(../blocks/switcher-color-theme/switcher-color-theme.css);
+@import url(../blocks/switcher-color-theme/__btn-container/switcher-color-theme__btn-container.css);
+@import url(../blocks/switcher-color-theme/__btn/switcher-color-theme__btn.css);
+
 /* HEADER */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu/header__menu.css);
@@ -78,7 +82,9 @@
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__contact-info/form__contact-info.css);
 @import url(../blocks/form/__contact-email/form__contact-email.css);
+@import url(../blocks/footer/__copyright-and-switcher/footer__copyright-and-switcher.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__icon/footer__icon.css);

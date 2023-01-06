@@ -1,0 +1,8 @@
+.switcher-color-theme__btn-container {
+  width: 44px;
+  height: 24px;
+  background-color: var(--switcher-theme-color-container_theme_light);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+}

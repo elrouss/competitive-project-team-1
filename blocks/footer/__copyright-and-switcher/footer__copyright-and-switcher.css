@@ -1,0 +1,11 @@
+.footer__copyright-and-switcher {
+  padding: 100px 0 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 770px) {
+  .footer__copyright-and-switcher {
+    padding-bottom: 25px;
+  }
+}

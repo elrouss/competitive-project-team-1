@@ -1,6 +1,7 @@
 .footer {
   margin: 0;
   padding-left: calc(120 / 1440 * 100%);
+  padding-right: calc(120 / 1440 * 100%);
   background-color: var(--basic-fourth-tint-color_theme_light);
   display: flex;
   flex-direction: column;
@@ -9,5 +10,6 @@
 @media screen and (max-width: 770px) {
   .footer {
     padding-left: calc(18 / 320 * 100%);
+    padding-right: calc(18 / 320 * 100%);
   }
 }

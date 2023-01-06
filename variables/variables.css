@@ -11,6 +11,7 @@
   --complementary-third-tint-color_theme_light: #cfcfcf;
 
   --form-border_theme_light: 1px solid rgba(199, 199, 199, .5);
+  --switcher-theme-color-container_theme_light: #fff;
 
   /* DARK MODE THEME */
   --basic-first-tint-color_theme_dark: #333333;
@@ -23,6 +24,7 @@
   --complementary-third-tint-color_theme_dark: #565656;
 
   --form-border_theme_dark: 1px solid rgba(125, 125, 125, .5);
+  --switcher-theme-color-container_theme_dark: #545454;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,6 +39,7 @@
     --complementary-third-tint-color_theme_light: var(--complementary-third-tint-color_theme_dark);
 
     --form-border_theme_light: var(--form-border_theme_dark);
+    --switcher-theme-color-container_theme_light: var(--switcher-theme-color-container_theme_dark);
   }
 }
 
@@ -52,5 +55,6 @@
     --complementary-third-tint-color_theme_dark: var(--complementary-third-tint-color_theme_light);
 
     --form-border_theme_dark: var(--form-border_theme_light);
+    --switcher-theme-color-container_theme_dark: var(--switcher-theme-color-container_theme_light);
   }
 }
