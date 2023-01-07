@@ -174,6 +174,16 @@ function moveThemeBtn() {
   };
 }
 
+function changeSliderArrows(theme) {
+  if (theme === 'dark') {
+    arrowPrevSliderSectionRoads.style.backgroundImage='url(../../images/slider-arrow-left_theme_dark.svg)';
+    arrowNextSliderSectionRoads.style.backgroundImage='url(../../images/slider-arrow-right_theme_dark.svg)';
+  } else {
+    arrowPrevSliderSectionRoads.style.backgroundImage='url(../../images/slider-arrow-left.svg)';
+    arrowNextSliderSectionRoads.style.backgroundImage='url(../../images/slider-arrow-right.svg)';
+  }
+}
+
 function toggleTheme() {
   moveThemeBtn();
 
@@ -182,6 +192,7 @@ function toggleTheme() {
 
   localStorage.setItem('cycling.theme', theme);
   loadTheme(theme);
+  changeSliderArrows(theme);
 }
 
 // ОБРАБОТЧИКИ СОБЫТИЙ
@@ -199,6 +210,7 @@ themeBtnContainer.addEventListener('click', toggleTheme);
 window.addEventListener('DOMContentLoaded', () => {
   loadTheme(getCurrentTheme());
   considerStartPositionBtnTheme(getCurrentTheme());
+  changeSliderArrows(getCurrentTheme());
 
   sliderIcons[0].classList.add('roads__vector_visibility_is-visible');
 })

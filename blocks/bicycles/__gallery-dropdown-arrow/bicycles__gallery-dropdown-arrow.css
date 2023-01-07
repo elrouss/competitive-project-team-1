@@ -1,0 +1,8 @@
+.bicycles__gallery-dropdown-arrow {
+  width: 12px;
+  height: 10px;
+  position: absolute;
+  top: 10px;
+  left: 90px;
+  stroke: var(--basic-second-tint-color_theme_light);
+}

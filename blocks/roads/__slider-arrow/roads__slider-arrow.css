@@ -5,7 +5,7 @@
   background-color: var(--complementary-first-tint-color_theme_light);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 7px 16px;
+  background-size: 10px 18px;
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -23,28 +23,26 @@
 }
 
 .roads__slider-arrow:nth-child(1) {
-  background-image: url(../../../images/slider-arrow-left.svg);
-  left: 0;
+  left: -2px;
 }
 
 .roads__slider-arrow:nth-child(2) {
-  background-image: url(../../../images/slider-arrow-right.svg);
-  left: 70px;
+  left: 72px;
 }
 
 @media screen and (max-width: 770px) {
   .roads__slider-arrow {
     width: calc(24px + (26 + 26 * .7) * (100vw - 320px) / 770);
     height: calc(24px + (26 + 26 * .7) * (100vw - 320px) / 770);
-    background-size: 4.5px 10px;
+    background-size: 6px 11px;
     top: calc(58px + (12 + 12 * .7) * (100vw - 320px) / 770);
   }
 
   .roads__slider-arrow:nth-child(1) {
-    left: calc(226px + (340 + 340 * .7) * (100vw - 320px) / 770);
+    left: calc(225px + (339 + 339 * .7) * (100vw - 320px) / 770);
   }
 
   .roads__slider-arrow:nth-child(2) {
-    left: calc(260px + (374 + 374 * .7) * (100vw - 320px) / 770);
+    left: calc(261px + (375 + 375 * .7) * (100vw - 320px) / 770);
   }
 }
