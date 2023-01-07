@@ -21,6 +21,11 @@ const cardTemplateBicycle = document.querySelector('.bicycles__card-template').c
 const tabBarBicycles = document.querySelector('.bicycles__links');
 const dropdownBicycles = document.querySelector('#dropdown');
 
+// Форма с электронным адресом
+const formEmail = document.querySelector('.form');
+const inputEmail = document.querySelector('.form__contact-email');
+const formSubmitBtn = document.querySelector('.form__submit-btn');
+
 // Переключение светлой/темной темы
 const themeBtnContainer = document.querySelector('.switcher-color-theme__btn-container');
 const themeBtn = document.querySelector('.switcher-color-theme__btn');

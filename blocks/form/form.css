@@ -1,9 +1,10 @@
 .form {
-  padding-top: 50px;
+  margin-top: 50px;
+  position: relative;
 }
 
 @media screen and (max-width: 770px) {
   .form {
-    padding-top: 40px;
+    margin-top: 40px;
   }
 }

@@ -92,6 +92,8 @@
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__contact-info/form__contact-info.css);
 @import url(../blocks/form/__contact-email/form__contact-email.css);
+@import url(../blocks/form/__submit-btn/form__submit-btn.css);
+@import url(../blocks/form/__submit-btn/_visible/form__submit-btn_visible.css);
 @import url(../blocks/footer/__copyright-and-switcher/footer__copyright-and-switcher.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__icon/footer__icon.css);

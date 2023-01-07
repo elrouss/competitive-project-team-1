@@ -140,6 +140,24 @@ function toggleCardsBicyclesDropdown(evt) {
   };
 }
 
+// Форма с электронным адресом
+function showFormSubmitBtn() {
+  formSubmitBtn.classList.add('form__submit-btn_visible');
+}
+
+function hideFormSubmitBtn() {
+  formSubmitBtn.classList.remove('form__submit-btn_visible');
+}
+
+function showSubmitFormSuccess() {
+  
+}
+
+function submitFormEmail(evt) {
+  evt.preventDefault();
+
+}
+
 // Переключение светлой/темной темы
 function getCurrentTheme() {
   let theme = window.matchMedia('(prefers-color-scheme: dark').matches
@@ -204,6 +222,10 @@ arrowPrevSliderSectionRoads.addEventListener('keydown', handleIncrementAndDecrem
 
 tabBarBicycles.addEventListener('click', toggleCardsBicyclesTabBar);
 dropdownBicycles.addEventListener('change', toggleCardsBicyclesDropdown);
+
+inputEmail.addEventListener('focus', showFormSubmitBtn);
+inputEmail.addEventListener('blur', hideFormSubmitBtn);
+formEmail.addEventListener('submit', submitFormEmail);
 
 themeBtnContainer.addEventListener('click', toggleTheme);
 
