@@ -1,9 +1,13 @@
 .bicycles__gallery {
-  display: none;
   margin: 0;
   padding: 117px 0 0;
   max-width: 1200px;
   grid-area: gallery;
+  position: relative;
+  z-index: -1;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .15s ease, opacity .15s ease, z-index 0s ease;
 }
 
 @media screen and (max-width: 770px) {
