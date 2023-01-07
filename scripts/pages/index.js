@@ -75,7 +75,38 @@ function handleDescriptionSlide() {
   }
 }
 
-// Секция "Bicycles". Рендеринг карточек
+// Секция "Bicycles"
+// Рендеринг переключателей карточек
+function createLinksCardsBicycles(link) {
+  const { dataId, text } = link;
+
+  const linkItem = linksTemplateBicycles.cloneNode(true);
+  // const linkContent = linkItem.querySelector('.bicycles__link');
+  // cardContent.classList.add('bicycles__gallery-card_is-visibile');
+
+  const linkData = linkItem.querySelector('.bicycles__link');
+
+  linkData.dataset.id = dataId;
+  linkData.textContent = text;
+
+  return linkItem;
+}
+
+function renderLinksCardsBicycles() {
+  Object.values(bicyclesTemplateLinks).forEach(link => {
+    tabBarBicycles.append(createLinksCardsBicycles(link));
+  })
+}
+
+function selectFirstLink() {
+  const link = document.querySelector('.bicycles__link');
+  link.classList.add('bicycles__link_selected');
+}
+
+renderLinksCardsBicycles();
+selectFirstLink();
+
+// Рендеринг карточек
 function createCardBicycle(card) {
   const { heading, image, link } = card;
 

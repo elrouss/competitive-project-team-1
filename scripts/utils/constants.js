@@ -17,6 +17,9 @@ const galleryBicyclesSliderGravel = galleryBicyclesGravel.querySelector('.splide
 const galleryBicyclesTimeTrial = document.querySelector('#timeTrialGallery');
 const galleryBicyclesSliderTimeTrial = galleryBicyclesTimeTrial.querySelector('.splide__list');
 
+const linksTemplateBicycles = document.querySelector('.bicycles__template-links').content;
+const linkTemplateBicycles = document.querySelector('.bicycles__line-link');
+
 const cardTemplateBicycle = document.querySelector('.bicycles__card-template').content;
 const tabBarBicycles = document.querySelector('.bicycles__links');
 const dropdownBicycles = document.querySelector('#dropdown');

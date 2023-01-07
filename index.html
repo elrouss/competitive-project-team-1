@@ -104,20 +104,7 @@
 
     <section class="bicycles" id="bike">
       <h2 class="section-title bicycles__title">Велосипеды</h2>
-      <ul class="bicycles__links">
-        <li>
-          <button type="button" aria-label="Переключение карточек в галерее"
-            class="bicycles__link bicycles__link_selected" data-id="highway">Шоссе</button>
-        </li>
-        <li>
-          <button type="button" aria-label="Переключение карточек в галерее" class="bicycles__link"
-            data-id="gravel">Грэвел</button>
-        </li>
-        <li>
-          <button type="button" aria-label="Переключение карточек в галерее" class="bicycles__link"
-            data-id="timeTrial">ТТ</button>
-        </li>
-      </ul>
+      <ul class="bicycles__links"></ul>
       <form class="bicycles__gallery-dropdown">
         <svg viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg" class="bicycles__gallery-dropdown-arrow">
           <path d="M1 1L6 5.5L11 0.999999" stroke-width="1.2" />
@@ -205,6 +192,12 @@
 
   </footer>
 
+  <template class="bicycles__template-links">
+    <li class="bicycles__line-link">
+      <button type="button" aria-label="Переключение карточек в галерее" class="bicycles__link" data-id="#"></button>
+    </li>
+  </template>
+
   <template class="bicycles__card-template">
     <article class="splide__slide bicycles__gallery-card">
       <a href="" target="_blank" class="bicycles__gallery-link">
@@ -217,6 +210,7 @@
   <script src="./scripts/utils/constants.js"></script>
   <script src="./scripts/utils/initialCardsBicycles.js"></script>
   <script src="./scripts/utils/sliderSectionRoads.js"></script>
+  <script src="./scripts/utils/bicyclesTemplateLinks.js"></script>
   <script src="./scripts/pages/index.js"></script>
   <script src="./vendor/splidejs/dist/js/splide.min.js"></script>
   <script src="./scripts/splide/sliders.js"></script>
