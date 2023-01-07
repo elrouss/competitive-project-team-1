@@ -145,17 +145,34 @@ function showFormSubmitBtn() {
   formSubmitBtn.classList.add('form__submit-btn_visible');
 }
 
-function hideFormSubmitBtn() {
+function hideFormSubmitBtn(evt) {
   formSubmitBtn.classList.remove('form__submit-btn_visible');
 }
 
-function showSubmitFormSuccess() {
-  
+function showSubmitFormMsgSuccess() {
+  formSubmitMsgSuccess.classList.add('form__submit-msg_visible');
+}
+
+function hideSubmitFormMsgSuccess() {
+  if (formSubmitMsgSuccess.classList.contains('form__submit-msg_visible')) {
+    formSubmitMsgSuccess.classList.remove('form__submit-msg_visible');
+  };
 }
 
 function submitFormEmail(evt) {
   evt.preventDefault();
 
+  inputEmail.removeAttribute('placeholder');
+  inputEmail.value = '';
+  showSubmitFormMsgSuccess();
+}
+
+function resetFormEmailAttributes() {
+  hideSubmitFormMsgSuccess();
+
+  if (!inputEmail.hasAttribute('placeholder')) {
+    inputEmail.setAttribute('placeholder', 'Ваш e-mail');
+  };
 }
 
 // Переключение светлой/темной темы
@@ -224,7 +241,11 @@ tabBarBicycles.addEventListener('click', toggleCardsBicyclesTabBar);
 dropdownBicycles.addEventListener('change', toggleCardsBicyclesDropdown);
 
 inputEmail.addEventListener('focus', showFormSubmitBtn);
-inputEmail.addEventListener('blur', hideFormSubmitBtn);
+inputEmail.addEventListener('blur', () => {
+  hideFormSubmitBtn();
+  resetFormEmailAttributes();
+})
+inputEmail.addEventListener('keydown', hideSubmitFormMsgSuccess);
 formEmail.addEventListener('submit', submitFormEmail);
 
 themeBtnContainer.addEventListener('click', toggleTheme);

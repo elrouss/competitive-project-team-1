@@ -25,6 +25,7 @@ const dropdownBicycles = document.querySelector('#dropdown');
 const formEmail = document.querySelector('.form');
 const inputEmail = document.querySelector('.form__contact-email');
 const formSubmitBtn = document.querySelector('.form__submit-btn');
+const formSubmitMsgSuccess = document.querySelector('.form__submit-msg');
 
 // Переключение светлой/темной темы
 const themeBtnContainer = document.querySelector('.switcher-color-theme__btn-container');

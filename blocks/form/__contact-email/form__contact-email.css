@@ -6,6 +6,8 @@
   width: 339px;
   height: 46px;
   padding-left: 17px;
+  font-size: 13px;
+  line-height: calc(28 / 13 * 100%);
   transition: all .4s ease;
 }
 
