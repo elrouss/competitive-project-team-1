@@ -14,12 +14,20 @@
 @import url(../blocks/section-paragraph/section-paragraph.css);
 @import url(../blocks/link/link.css);
 
+@import url(../blocks/switcher-color-theme/switcher-color-theme.css);
+@import url(../blocks/switcher-color-theme/__btn-container/switcher-color-theme__btn-container.css);
+@import url(../blocks/switcher-color-theme/__btn/switcher-color-theme__btn.css);
+@import url(../blocks/switcher-color-theme/__btn/_movement/switcher-color-theme__btn_movement_light.css);
+@import url(../blocks/switcher-color-theme/__btn/_movement/switcher-color-theme__btn_movement_dark.css);
+@import url(../blocks/switcher-color-theme/__icon/switcher-color-theme__icon.css);
+
 /* HEADER */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__items/header__items.css);
 @import url(../blocks/header/__item/header__item.css);
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__icon/header__icon.css);
 
 /* INTRO */
 @import url(../blocks/intro/intro.css);
@@ -48,6 +56,8 @@
 @import url(../blocks/roads/__paragraph/roads__paragraph.css);
 @import url(../blocks/roads/__slide/roads__slide.css);
 @import url(../blocks/roads/__slider-arrow/roads__slider-arrow.css);
+@import url(../blocks/roads/__slider-arrow-prev/roads__slider-arrow-prev.css);
+@import url(../blocks/roads/__slider-arrow-next/roads__slider-arrow-next.css);
 @import url(../blocks/roads/__photo/roads__photo.css);
 @import url(../blocks/roads/__vector/roads__vector.css);
 @import url(../blocks/roads/__vector/_visibility/roads__vector_visibility_is-visible.css);
@@ -61,6 +71,7 @@
 @import url(../blocks/bicycles/__gallery-image/bicycles__gallery-image.css);
 @import url(../blocks/bicycles/__gallery-image-caption/bicycles__gallery-image-caption.css);
 @import url(../blocks/bicycles/__gallery-dropdown/bicycles__gallery-dropdown.css);
+@import url(../blocks/bicycles/__gallery-dropdown-arrow/bicycles__gallery-dropdown-arrow.css);
 @import url(../blocks/bicycles/__gallery-pagination/bicycles__gallery-pagination.css);
 @import url(../blocks/bicycles/__gallery-pagination-btn/bicycles__gallery-pagination-btn.css);
 @import url(../blocks/bicycles/__links/bicycles__links.css);
@@ -78,7 +89,9 @@
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__contact-info/form__contact-info.css);
 @import url(../blocks/form/__contact-email/form__contact-email.css);
+@import url(../blocks/footer/__copyright-and-switcher/footer__copyright-and-switcher.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__icon/footer__icon.css);

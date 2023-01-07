@@ -1,0 +1,4 @@
+.switcher-color-theme__btn_movement_light {
+  transition: transform .45s ease;
+  transform: translateX(-10px);
+}

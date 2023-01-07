@@ -1,10 +1,12 @@
 .form__contact-email {
-  border: 1px solid #c7c7c7;
-  background: rgba(239, 239, 239, .5);
+  border: var(--form-border_theme_light);
+  background-color: var(--basic-fourth-tint-color_theme_light);
+  color: var(--basic-second-tint-color_theme_light);
   border-radius: 4px;
   width: 339px;
   height: 46px;
   padding-left: 17px;
+  transition: all .4s ease;
 }
 
 .form__contact-email:hover {
@@ -14,20 +16,21 @@
 .form__contact-email:focus {
   outline: none;
   cursor: text;
-  /*Б.З., доделать: при фокусе прозрачность рамки поля равняется 1*/
+  border: var(--form-border-focus_theme_light);
 }
 
 .form__contact-email::placeholder {
   font-family: 'Inter';
-  color: #222;
+  color: var(--basic-third-tint-color_theme_light);
   font-weight: 500;
   font-size: 13px;
   line-height: calc(28 / 13 * 100%);
   opacity: .7;
+  transition: all .4s ease;
 }
 
 .form__contact-email:hover::placeholder {
-  color: #151515;
+  color: var(--basic-second-tint-color_theme_light);
   opacity: 1;
 }
 

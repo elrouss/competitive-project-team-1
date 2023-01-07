@@ -2,7 +2,7 @@
   padding: 0;
   border: none;
   background-color: inherit;
-  color: #222222;
+  color: var(--basic-third-tint-color_theme_light);
   opacity: .7;
   cursor: pointer;
   transition: opacity .6s ease;
