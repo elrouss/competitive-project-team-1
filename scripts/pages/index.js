@@ -1,5 +1,31 @@
 // ФУНКЦИИ
-// Секция "Roads". Переключение заголовка и текста слайдера
+// Секция "Roads"
+// Рендеринг слайдов
+function makeTemplateSlideRoads(slide) {
+  const { photo, alt, icon } = slide;
+
+  const slideItem = templateSlideRoads.cloneNode(true);
+  const slideContent = slideItem.querySelector('.roads__slide');
+
+  const slideImage = slideContent.querySelector('.roads__photo');
+  const iconImage = slideContent.querySelector('.roads__vector');
+
+  slideImage.src = photo;
+  slideImage.alt = alt;
+  iconImage.src = icon;
+
+  return slideItem;
+}
+
+function renderSlidesRoads() {
+  Object.values(templateInitialSlidesRoads).forEach(slide => {
+    sliderContainerRoads.append(makeTemplateSlideRoads(slide));
+  });
+}
+
+renderSlidesRoads();
+
+// Переключение заголовка и текста слайдера
 let counter = 1;
 
 function handleIncrementClick() {
@@ -23,6 +49,8 @@ function handleIncrementAndDecrementBtns(evt) {
 
   handleDescriptionSlide();
 }
+
+const sliderIcons = document.querySelectorAll('.roads__vector');
 
 function handleDescriptionSlide() {
   if (counter < -1 || counter > 3) {
@@ -81,9 +109,6 @@ function createLinksCardsBicycles(link) {
   const { dataId, text } = link;
 
   const linkItem = linksTemplateBicycles.cloneNode(true);
-  // const linkContent = linkItem.querySelector('.bicycles__link');
-  // cardContent.classList.add('bicycles__gallery-card_is-visibile');
-
   const linkData = linkItem.querySelector('.bicycles__link');
 
   linkData.dataset.id = dataId;
