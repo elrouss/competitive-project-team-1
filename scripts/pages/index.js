@@ -267,11 +267,11 @@ function moveThemeBtn() {
 
 function changeSliderArrows(theme) {
   if (theme === 'dark') {
-    arrowPrevSliderSectionRoads.style.backgroundImage='url(../../images/slider-arrow-left_theme_dark.svg)';
-    arrowNextSliderSectionRoads.style.backgroundImage='url(../../images/slider-arrow-right_theme_dark.svg)';
+    arrowPrevSliderSectionRoads.style.backgroundImage='url(./images/slider-arrow-left_theme_dark.svg)';
+    arrowNextSliderSectionRoads.style.backgroundImage='url(./images/slider-arrow-right_theme_dark.svg)';
   } else {
-    arrowPrevSliderSectionRoads.style.backgroundImage='url(../../images/slider-arrow-left.svg)';
-    arrowNextSliderSectionRoads.style.backgroundImage='url(../../images/slider-arrow-right.svg)';
+    arrowPrevSliderSectionRoads.style.backgroundImage='url(./images/slider-arrow-left.svg)';
+    arrowNextSliderSectionRoads.style.backgroundImage='url(./images/slider-arrow-right.svg)';
   }
 }
 
