@@ -25,19 +25,21 @@
 :white_check_mark: Свитчер светлой/темной темы<br>
 
 <h2 align="right">Стек технологий :hammer_and_wrench:</h2>
-<p align="right">HTML5 :eight_spoked_asterisk:</p>
-<p align="right">CSS3 :eight_spoked_asterisk:</p>
-<p align="right">Vanilla JS :eight_spoked_asterisk:</p>
-<p align="right">Splidejs :eight_spoked_asterisk:</p>
-<p align="right">БЭМ :eight_spoked_asterisk:</p>
+<div align="right">HTML5 :eight_spoked_asterisk:</div>
+<div align="right">CSS3 :eight_spoked_asterisk:</div>
+<div align="right">Vanilla JS :eight_spoked_asterisk:</div>
+<div align="right">Splidejs :eight_spoked_asterisk:</div>
+<div align="right">БЭМ :eight_spoked_asterisk:</div>
 
 ## :balance_scale: Планы по доработке
 :o: Доверстать 3 блока на промежуточные брейкпоинты между 320 и 1440px<br>
-:o: Сверстать окно выпадающего меню на мобильных устройствах и планшетах<br>
+:o: Сверстать и заменить дефолтное окно выпадающего меню на мобильных устройствах и планшетах<br>
 :o: Исправить баг в работе слайдера карточек при переключении галереи через выпадающее меню</br> 
 :o: Реализовать открытие и закрытие бургерного меню на мобильных устройствах и планшетах<br>
 :o: Написать логику валидации формы<br>
-:o: Оптимизировать программный код<br>
+:o: Убрать фокус у скрытых элементов и исчезновение кнопки сабмита формы при перемещении по странице клавишей Tab<br>
+:o: Стилизовать фокус у элементов<br>
+:o: Оптимизировать программный код
 
 <div align="center">
   <a href="https://elrouss.github.io/competitive-project-team-1/">
