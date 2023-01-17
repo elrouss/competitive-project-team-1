@@ -286,6 +286,29 @@ function toggleTheme() {
   changeSliderArrows(theme);
 }
 
+//открытие бургерного меню
+function openPopupBurger(e) {
+  e.preventDefault();
+  headerMenu.classList.toggle('header__menu_active');
+  burgerButton.classList.toggle('active');
+  body.classList.toggle("noscroll");
+}
+
+//закрытие бургера при нажатии на ссылку
+const links = Array.from(menu.querySelectorAll(".header__item"));
+
+links.forEach((i) => {
+  i.addEventListener("click", closeOnClick);
+});
+
+function closeOnClick() {
+  headerMenu.classList.remove("header__menu_active");
+  burgerButton.classList.remove("active");
+  body.classList.remove("noscroll");
+}
+
+burgerButton.addEventListener('click', openPopupBurger);
+
 // ОБРАБОТЧИКИ СОБЫТИЙ
 arrowNextSliderSectionRoads.addEventListener('click', handleIncrementClick);
 arrowPrevSliderSectionRoads.addEventListener('click', handleDecrementClick);

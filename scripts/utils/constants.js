@@ -35,3 +35,9 @@ const formSubmitMsgSuccess = document.querySelector('.form__submit-msg');
 // Переключение светлой/темной темы
 const themeBtnContainer = document.querySelector('.switcher-color-theme__btn-container');
 const themeBtn = document.querySelector('.switcher-color-theme__btn');
+
+// Бургер меню
+const burgerButton = document.querySelector('.header__burger');
+const headerMenu = document.querySelector('.header__menu')
+const body = document.body
+const menu = document.querySelector(".header__items");
