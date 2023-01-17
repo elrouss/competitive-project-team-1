@@ -8,3 +8,7 @@
   font-style: normal;
   transition: all .4s ease;
 }
+
+.page.noscroll {
+  overflow: hidden;
+}

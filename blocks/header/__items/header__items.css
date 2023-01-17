@@ -5,3 +5,10 @@
   display: flex;
   margin: 0;
 }
+
+@media screen and (max-width: 522px) {
+  .header__items {
+    flex-direction: column;
+    margin: 10px 0;
+  }
+}
