@@ -1,7 +1,7 @@
 .workout {
   display: grid;
   max-width: 1200px;
-  grid-template-columns: minmax(200px, 460px) minmax(400px, 580px);
+  grid-template-columns: minmax(200px, 460px) minmax(400px, 720px);
   column-gap: 160px;
   margin: 0 auto 120px;
   padding-top: 93px;
