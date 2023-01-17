@@ -1,0 +1,12 @@
+.roads__paragraph {
+  margin-top: 44px;
+  grid-area: paragraph;
+}
+
+@media screen and (max-width: 770px) {
+  .roads__paragraph {
+    margin-top: 40px;
+    max-width: 100%;
+    min-height: 90px;
+  }
+}

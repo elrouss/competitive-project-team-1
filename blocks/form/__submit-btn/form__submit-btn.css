@@ -1,0 +1,26 @@
+.form__submit-btn {
+  padding: 0;
+  font-size: 13px;
+  line-height: calc(28 / 13 * 100%);
+  background: transparent;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  color: var(--basic-second-tint-color_theme_light);
+  position: absolute;
+  top: 12px;
+  left: 323px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .4s ease, opacity .4s ease;
+}
+
+.form__submit-btn:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 770px) {
+  .form__submit-btn {
+    left: calc(255px + (68 + 68 * .7) * (100vw - 320px) / 770);
+  }
+}

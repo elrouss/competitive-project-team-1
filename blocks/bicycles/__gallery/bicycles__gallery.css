@@ -2,16 +2,18 @@
   margin: 0;
   padding: 117px 0 0;
   max-width: 1200px;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  grid-area: image;
-  column-gap: 30px;
-  align-self: center;
+  grid-area: gallery;
+  position: relative;
+  z-index: -1;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .15s ease, opacity .15s ease, z-index 0s ease;
 }
 
-/*@media screen and (max-width: 320px) {
+@media screen and (max-width: 770px) {
   .bicycles__gallery {
-    position: relative;
+    padding-top: 19px;
+    padding-bottom: 27px;
+    overflow: hidden;
   }
-}*/
+}

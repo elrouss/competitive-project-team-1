@@ -1,6 +1,14 @@
 .roads__vector {
+  display: none;
   max-width: 100px;
   position: absolute;
-  bottom: 20px;
+  bottom: 15px;
   left: 0;
+}
+
+@media screen and (max-width: 770px) {
+  .roads__vector {
+    max-width: calc(70px + (30 + 30 * .7) * (100vw - 320px) / 770);
+    bottom: 14px;
+  }
 }

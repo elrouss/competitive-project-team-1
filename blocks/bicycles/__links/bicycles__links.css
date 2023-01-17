@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0 0 9px;
   list-style-type: none;
+  grid-area: sidebar;
   display: flex;
   column-gap: 40px;
   font-weight: 400;
@@ -9,4 +10,10 @@
   line-height: calc(28 / 18 * 100%);
   align-self: flex-end;
   justify-self: flex-end;
+}
+
+@media screen and (max-width: 770px) {
+  .bicycles__links {
+    display: none;
+  }
 }

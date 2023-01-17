@@ -1,0 +1,18 @@
+.section-title {
+  max-width: 460px;
+  font-size: 55px;
+  line-height: calc(60 / 55 * 100%);
+  letter-spacing: -.5px;
+  font-weight: 700;
+  margin: 60px 0 0;
+  grid-area: title;
+}
+
+@media screen and (max-width: 770px) {
+  .section-title {
+    font-size: calc(32px + (23 + 23 * .7) * (100vw - 320px) / 770);
+    line-height: calc(40 / 32 * 100%);
+    max-width: 284px;
+    margin-top: 39px;
+  }
+}

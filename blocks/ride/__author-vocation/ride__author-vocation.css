@@ -2,8 +2,9 @@
   font-weight: 400;
   font-size: 16px;
   line-height: calc(28 / 16 * 100%);
-  color: #222;
+  color: var(--basic-third-tint-color_theme_light);
   margin: 9px 0 0 0;
+  opacity: .7;
 }
 
 @media screen and (max-width: 320px) {

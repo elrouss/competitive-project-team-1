@@ -1,0 +1,15 @@
+.footer__icon {
+  display: none;
+  position: relative;
+  bottom: 10px;
+  left: 2px;
+  width: 38px;
+  height: 38px;
+  stroke: var(--basic-second-tint-color_theme_light);
+}
+
+@media screen and (max-width: 770px) {
+  .footer__icon {
+    display: block;
+  }
+}

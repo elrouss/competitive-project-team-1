@@ -4,17 +4,12 @@
   object-fit: cover;
   border-radius: 20px;
   background-color: #f4f4f4;
-  filter: drop-shadow(0 20px 140px rgba(0, 0, 0, .06));
-  transition: filter .5s ease;
 }
 
-.bicycles__gallery-image:hover{
-  filter: drop-shadow(0 20px 140px rgba(0, 0, 0, .11));
-}
-
-/*@media screen and (max-width: 320px) {
+@media screen and (max-width: 770px) {
   .bicycles__gallery-image {
-    max-width: 254.11px;
-    padding: 14.95px 14.95px 36.95px;
+    max-width: calc(254.11px + (85.89 + 85.89 * .7) * (100vw - 320px) / 770);
+    padding: calc(14.95px + (5.05 + 5.05 * .7) * (100vw - 320px) / 770);
+    padding-bottom: calc(36.95px + (-16.95 - 16.95 * .7) * (100vw - 320px) / 770);
   }
-}*/
+}

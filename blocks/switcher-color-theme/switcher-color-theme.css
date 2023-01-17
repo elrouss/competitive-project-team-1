@@ -1,0 +1,11 @@
+.switcher-color-theme {
+  max-width: 138px;
+  display: flex;
+  gap: 22px;
+}
+
+@media screen and (max-width: 770px) {
+  .switcher-color-theme {
+    display: none;
+  }
+}

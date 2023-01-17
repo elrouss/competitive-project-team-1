@@ -1,18 +1,22 @@
 .bicycles__gallery-image-caption {
   margin: 0;
-  padding-top: 18px;
+  padding-top: 22px;
   padding-left: 6px;
   font-weight: 600;
   font-size: 18px;
   line-height: calc(22 / 18 * 100%);
 }
 
-/*@media screen and (max-width: 320px) {
+@media screen and (max-width: 770px) {
   .bicycles__gallery-image-caption {
+    color: #151515;
+    padding: 0;
     font-size: 14px;
     line-height: calc(18 / 14 * 100%);
     position: absolute;
-    left: 67px;
-    bottom: 38px;
+    bottom: 5%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
   }
-}*/
+}

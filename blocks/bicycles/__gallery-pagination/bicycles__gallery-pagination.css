@@ -1,0 +1,10 @@
+.bicycles__gallery-pagination {
+  column-gap: 5px;
+  top: 101.5%;
+}
+
+@media screen and (max-width: 770px) {
+  .bicycles__gallery-pagination {
+    top: 95%;
+  }
+}

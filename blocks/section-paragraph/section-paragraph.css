@@ -1,0 +1,19 @@
+.section-paragraph {
+  max-width: 460px;
+  font-size: 18px;
+  line-height: calc(28 / 18 * 100%);
+  color: var(--basic-third-tint-color_theme_light);
+  opacity: .7;
+  font-weight: 400;
+  margin: 50px 0 0;
+  grid-area: paragraph;
+}
+
+@media screen and (max-width: 770px) {
+  .section-paragraph {
+    font-size: calc(12px + (6 + 6 * .7) * (100vw - 320px) / 770);
+    line-height: calc(18 / 12 * 100%);
+    margin: 41px 0 0;
+    max-width: 284px;
+  }
+}

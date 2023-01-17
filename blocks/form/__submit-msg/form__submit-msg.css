@@ -1,0 +1,11 @@
+.form__submit-msg {
+  font-size: 13px;
+  line-height: calc(28 / 13 * 100%);
+  color: var(--basic-second-tint-color_theme_light);
+  position: absolute;
+  top: 11px;
+  left: 18px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .4s ease, opacity .4s ease;
+}

@@ -1,0 +1,5 @@
+.bicycles__gallery_is-active {
+  z-index: 1;
+  visibility: visible;
+  opacity: 1;
+}
