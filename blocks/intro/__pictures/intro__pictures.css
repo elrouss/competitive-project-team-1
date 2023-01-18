@@ -5,12 +5,25 @@
   grid-area: image;
  }
 
+ @media screen and (max-width: 1239px) {
+  .intro__pictures {
+    width: 100%;
+    height: auto;
+  }
+ }
+
+ @media screen and (max-width: 770px) {
+  .intro__pictures {
+    max-width: 444px;
+    height: 450px;
+    margin-top: 46px;
+  }
+ }
 
  @media screen and (max-width: 320px) {
   .intro__pictures {
     max-width: 334px;
     height: 348px;
-    margin-top: 40px;
   }
  }
 

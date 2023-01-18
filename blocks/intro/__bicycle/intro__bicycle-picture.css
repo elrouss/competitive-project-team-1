@@ -12,7 +12,14 @@
   margin-bottom: 79px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1239px) {
+  .intro__bicycle-picture {
+    width: 40%;
+    height: auto;
+  }
+ }
+
+@media screen and (max-width: 770px) {
   .intro__bicycle-picture {
     width: 180px;
     height: 138px;

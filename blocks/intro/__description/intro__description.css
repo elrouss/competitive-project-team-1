@@ -6,7 +6,7 @@
   grid-area: description;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 770px) {
   .intro__description {
     display: none;
   }

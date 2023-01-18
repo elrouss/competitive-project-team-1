@@ -17,3 +17,16 @@
     max-width: 284px;
   }
 }
+
+@media screen and (max-width: 770px) {
+  .section-paragraph {
+    max-width: 500px;
+    justify-self: baseline;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .section-paragraph {
+    max-width: 284px;
+  }
+}

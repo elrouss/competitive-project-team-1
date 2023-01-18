@@ -6,9 +6,10 @@
   margin: 0;
 }
 
-@media screen and (max-width: 522px) {
+@media screen and (max-width: 560px) {
   .header__items {
     flex-direction: column;
-    margin: 10px 0;
+    align-items: center;
+    margin-top: 70px;
   }
 }

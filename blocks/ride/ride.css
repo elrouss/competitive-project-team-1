@@ -2,16 +2,25 @@
   display: grid;
   max-width: 1200px;
   margin: 120px auto 50px;
+  margin-left: calc(120/1440 * 100%);
   grid-template-columns: minmax(300px, 650px) minmax(300px, 470px);
   column-gap: 80px;
 }
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 963px) {
+  .ride {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 770px) {
   .ride {
     display: block;
-    max-width: 284px;
     padding-top: 20px;
-    margin-top: 40px;
+    margin: 36px 17px 0;
+    margin-left: calc(18/320 * 100%);
+    margin-right: calc(18/320 * 100%);
     position: relative;
     border-top: 1px solid #e3e3e3;
   }

@@ -6,19 +6,22 @@
   padding: 28px 120px 28px 0;
 }
 
-@media screen and (max-width: 522px) {
+@media screen and (max-width: 560px) {
   .header__menu {
     display: none;
   }
   .header__menu_active {
-    display: block;
-    background-color:white;
-    top: 62px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--basic-first-tint-color_theme_light);
+    top: 70px;
     right: 0;
     transition: all 0.3s ease 0s;
     position: fixed;
     width: 100%;
-    border-radius: 25px;
+    height: 100%;
     padding: 0;
   }
 }
