@@ -1,22 +1,28 @@
 .workout {
   display: grid;
   max-width: 1200px;
-  grid-template-columns: minmax(200px, 460px) minmax(400px, 720px);
+  grid-template-columns: minmax(200px, 460px) minmax(400px, 580px);
   column-gap: 160px;
+  column-gap: 13%;
   margin: 0 auto 120px;
+  margin-left: calc(120/1440 * 100%);
   padding-top: 93px;
   grid-template-areas:
     'title image'
-    '. image'
     'paragraph image'
     '. image'
     'apps image';
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1323px) {
   .workout {
-    max-width: 284px;
-    margin: 0 auto;
+    margin-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 964px) {
+  .workout {
     padding-top: 40px;
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -25,6 +31,20 @@
       'paragraph'
       'apps';
     padding-bottom: 53px;
+    margin-left: calc(18/320 * 100%);
+    margin-right: calc(18/320 * 100%);
+  }
+}
+
+/* @media screen and (max-width: 770px) {
+  .workout {
     border-top: 1px solid #e3e3e3;
+  }
+} */
+
+@media screen and (max-width: 320px) {
+  .workout {
+    margin: 0 auto;
+    max-width: 284px;
   }
 }

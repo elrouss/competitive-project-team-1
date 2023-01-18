@@ -1,0 +1,20 @@
+.header__burger {
+  display: none;
+}
+
+@media screen and (max-width: 560px) {
+  .header__burger {
+    display: block;
+    width: 21px;
+    height: 49px;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    position: absolute;
+    top: 10px;
+    right: 13px;
+  }
+}
+

@@ -1,0 +1,22 @@
+.intro__title {
+  font-size: calc(23px + 32 * (100vw / 1440));
+}
+
+@media screen and (min-width: 1440px) {
+  .intro__title {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .intro__title {
+    max-width: 100%;
+    justify-self: baseline;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    max-width: 284px;
+  }
+}

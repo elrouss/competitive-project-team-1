@@ -8,10 +8,15 @@
   grid-area: apps;
 }
 
+@media screen and (max-width: 974px) {
+  .workout__apps {
+    margin-top: 40px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .workout__apps {
     max-width: 154px;
-    margin-top: 40px;
     justify-content: normal;
     column-gap: 30px;
   }

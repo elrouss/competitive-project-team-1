@@ -6,3 +6,13 @@
   background-color: inherit;
   top: 0;
 }
+
+.header__color-theme {
+  display: none;
+}
+
+@media screen and (max-width: 560px) {
+  .header__color-theme {
+    display: flex;
+  }
+}

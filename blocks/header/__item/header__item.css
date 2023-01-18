@@ -8,13 +8,13 @@
   margin: 0;
 }
 
-@media screen and (max-width: 522px) {
+@media screen and (max-width: 560px) {
   .header__item {
-    margin: 20px 10px;
+    font-size: 18px;
+    margin: 0 0 32px;
   }
 
   .header__item:last-of-type {
-    margin: 20px 10px;
+    margin: 0 0 318px
   }
-
 }
