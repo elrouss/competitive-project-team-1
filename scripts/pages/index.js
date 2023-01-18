@@ -103,6 +103,7 @@ function handleDescriptionSlide() {
   }
 }
 
+
 // Секция "Bicycles"
 // Рендеринг переключателей карточек
 function createLinksCardsBicycles(link) {
@@ -231,6 +232,18 @@ function resetFormEmailAttributes() {
   };
 }
 
+//рендеринг переключателя светлой/темной темы
+if (window.innerWidth  > 562) {
+  const gi = document.querySelector('.footer-switcher-color-theme');
+  gi.append(tmpl.content.cloneNode(true));
+} else if(window.innerWidth  < 561) {
+  const hi = document.querySelector('.header-switcher-color-theme');
+  hi.append(tmpl.content.cloneNode(true));
+}
+
+const themeBtnContainer = document.querySelector('.switcher-color-theme__btn-container');
+const themeBtn = document.querySelector('.switcher-color-theme__btn');
+
 // Переключение светлой/темной темы
 function getCurrentTheme() {
   let theme = window.matchMedia('(prefers-color-scheme: dark').matches
@@ -307,9 +320,10 @@ function closeOnClick() {
   body.classList.remove("noscroll");
 }
 
+// ОБРАБОТЧИКИ СОБЫТИЙ
+
 burgerButton.addEventListener('click', openPopupBurger);
 
-// ОБРАБОТЧИКИ СОБЫТИЙ
 arrowNextSliderSectionRoads.addEventListener('click', handleIncrementClick);
 arrowPrevSliderSectionRoads.addEventListener('click', handleDecrementClick);
 
@@ -336,3 +350,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
   sliderIcons[0].classList.add('roads__vector_visibility_is-visible');
 })
+
+
