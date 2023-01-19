@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 385px) {
   .intro__title {
     max-width: 284px;
   }

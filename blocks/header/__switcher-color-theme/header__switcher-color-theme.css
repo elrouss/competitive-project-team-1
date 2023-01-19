@@ -1,0 +1,9 @@
+.header__switcher-color-theme {
+  display: flex;
+}
+
+@media screen and (min-width: 561px) {
+  .header__switcher-color-theme {
+    display: none;
+  }
+}

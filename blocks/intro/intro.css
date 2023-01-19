@@ -26,7 +26,7 @@
     margin-left: calc(18/320 * 100%);
     margin-right: calc(18/320 * 100%);
     grid-template-columns: 1fr;
-    justify-items: center;
+    justify-items: end;
   }
 }
 

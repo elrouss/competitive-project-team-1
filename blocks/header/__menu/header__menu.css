@@ -3,13 +3,22 @@
   text-decoration: none;
   display: flex;
   justify-content: end;
-  padding: 28px 120px 28px 0;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-right: calc(120 / 1440 * 100%);
+}
+
+@media screen and (max-width: 770px) {
+  .header__menu {
+    padding-right: calc(18 / 320 * 100%);
+  }
 }
 
 @media screen and (max-width: 560px) {
   .header__menu {
     display: none;
   }
+  
   .header__menu_active {
     display: flex;
     align-items: center;

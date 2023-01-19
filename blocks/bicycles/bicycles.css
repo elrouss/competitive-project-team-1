@@ -14,12 +14,11 @@
 
 @media screen and (max-width: 770px) {
   .bicycles {
-    margin-top: 80px;
+    margin-top: 0;
     margin-left: calc(18/320 * 100%);
     margin-bottom: 40px;
     margin-right: calc(18/320 * 100%);
-    padding-top: 0;
-    border-top: 1px solid #e3e3e3;
+    padding-top: 37px;
     grid-template-columns: 1fr;
     grid-template-areas:
     'title'
