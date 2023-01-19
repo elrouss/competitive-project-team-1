@@ -35,7 +35,7 @@
     width: calc(24px + (26 + 26 * .7) * (100vw - 320px) / 770);
     height: calc(24px + (26 + 26 * .7) * (100vw - 320px) / 770);
     background-size: 6px 11px;
-    top: calc(58px + (12 + 12 * .7) * (100vw - 320px) / 770);
+    top: calc(140px + (12 + 12 * .7) * (100vw - 320px) / 770);
   }
 
   .roads__slider-arrow:nth-child(1) {

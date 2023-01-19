@@ -31,16 +31,16 @@
       'paragraph'
       'apps';
     padding-bottom: 53px;
+    margin-right: calc(120/1440 * 100%);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .workout {
     margin-left: calc(18/320 * 100%);
     margin-right: calc(18/320 * 100%);
   }
 }
-
-/* @media screen and (max-width: 770px) {
-  .workout {
-    border-top: 1px solid #e3e3e3;
-  }
-} */
 
 @media screen and (max-width: 320px) {
   .workout {

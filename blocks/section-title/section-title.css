@@ -12,7 +12,7 @@
   .section-title {
     font-size: calc(32px + (23 + 23 * .7) * (100vw - 320px) / 770);
     line-height: calc(40 / 32 * 100%);
-    max-width: 284px;
+    max-width: 100%;
     margin-top: 39px;
   }
 }

@@ -20,7 +20,7 @@
   }
  }
 
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 385px) {
   .intro__pictures {
     max-width: 334px;
     height: 348px;

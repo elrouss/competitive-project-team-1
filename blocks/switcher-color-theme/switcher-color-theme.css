@@ -4,10 +4,8 @@
   gap: 22px;
 }
 
-/* @media screen and (max-width: 770px) {
+@media screen and (max-width: 561px) {
   .switcher-color-theme {
     display: none;
   }
-} */
-
-
+}

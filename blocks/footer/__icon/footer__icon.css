@@ -8,7 +8,7 @@
   stroke: var(--basic-second-tint-color_theme_light);
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 561px) {
   .footer__icon {
     display: block;
   }

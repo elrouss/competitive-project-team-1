@@ -103,7 +103,6 @@ function handleDescriptionSlide() {
   }
 }
 
-
 // Секция "Bicycles"
 // Рендеринг переключателей карточек
 function createLinksCardsBicycles(link) {
@@ -232,18 +231,6 @@ function resetFormEmailAttributes() {
   };
 }
 
-//рендеринг переключателя светлой/темной темы
-if (window.innerWidth  > 562) {
-  const gi = document.querySelector('.footer-switcher-color-theme');
-  gi.append(tmpl.content.cloneNode(true));
-} else if(window.innerWidth  < 561) {
-  const hi = document.querySelector('.header-switcher-color-theme');
-  hi.append(tmpl.content.cloneNode(true));
-}
-
-const themeBtnContainer = document.querySelector('.switcher-color-theme__btn-container');
-const themeBtn = document.querySelector('.switcher-color-theme__btn');
-
 // Переключение светлой/темной темы
 function getCurrentTheme() {
   let theme = window.matchMedia('(prefers-color-scheme: dark').matches
@@ -263,19 +250,23 @@ function loadTheme(theme) {
 }
 
 function considerStartPositionBtnTheme(theme) {
-  theme === 'light'
-  ? themeBtn.classList.add('switcher-color-theme__btn_movement_light')
-  : themeBtn.classList.add('switcher-color-theme__btn_movement_dark');
+  themeBtn.forEach(btn=> {
+    theme === 'light'
+    ? btn.classList.add('switcher-color-theme__btn_movement_light')
+    : btn.classList.add('switcher-color-theme__btn_movement_dark');
+  });
 }
 
 function moveThemeBtn() {
-  if (themeBtn.classList.contains('switcher-color-theme__btn_movement_light')) {
-    themeBtn.classList.remove('switcher-color-theme__btn_movement_light');
-    themeBtn.classList.add('switcher-color-theme__btn_movement_dark');
-  } else {
-    themeBtn.classList.remove('switcher-color-theme__btn_movement_dark');
-    themeBtn.classList.add('switcher-color-theme__btn_movement_light');
-  };
+  themeBtn.forEach(btn=> {
+    if (btn.classList.contains('switcher-color-theme__btn_movement_light')) {
+      btn.classList.remove('switcher-color-theme__btn_movement_light');
+      btn.classList.add('switcher-color-theme__btn_movement_dark');
+    } else {
+      btn.classList.remove('switcher-color-theme__btn_movement_dark');
+      btn.classList.add('switcher-color-theme__btn_movement_light');
+    };
+  });
 }
 
 function changeSliderArrows(theme) {
@@ -321,7 +312,6 @@ function closeOnClick() {
 }
 
 // ОБРАБОТЧИКИ СОБЫТИЙ
-
 burgerButton.addEventListener('click', openPopupBurger);
 
 arrowNextSliderSectionRoads.addEventListener('click', handleIncrementClick);
@@ -341,7 +331,10 @@ inputEmail.addEventListener('blur', () => {
 inputEmail.addEventListener('keydown', hideSubmitFormMsgSuccess);
 formEmail.addEventListener('submit', submitFormEmail);
 
-themeBtnContainer.addEventListener('click', toggleTheme);
+themeBtnContainer.forEach(function(btn) {
+  // Вешаем событие клик
+  btn.addEventListener('click', toggleTheme)
+})
 
 window.addEventListener('DOMContentLoaded', () => {
   loadTheme(getCurrentTheme());

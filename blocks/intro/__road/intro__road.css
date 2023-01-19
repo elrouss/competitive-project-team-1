@@ -17,7 +17,7 @@
     max-width: 391px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 385px) {
   .intro__road {
     max-width: 254px;
     max-height: 348px;
