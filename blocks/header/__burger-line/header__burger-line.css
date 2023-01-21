@@ -3,10 +3,12 @@
     display: block;
     width: 22px;
     height: 4px;
-    margin: 4px;
-    /* stroke: var(--basic-third-tint-color_theme_light); */
     background-color: var(--basic-third-tint-color_theme_light);
     transition: 0.2s;
+  }
+
+  .header__burger-line:not(:last-child) {
+    margin-bottom: 4px;
   }
 
   .header__burger.active .header__burger-line:nth-child(2) {

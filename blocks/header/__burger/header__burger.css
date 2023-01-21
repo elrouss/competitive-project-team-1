@@ -6,14 +6,14 @@
   .header__burger {
     display: block;
     width: 21px;
-    height: 49px;
+    height: 20px;
     background-color: transparent;
     padding: 0;
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 10px;
-    right: calc(23 / 320 * 100%);
+    top: 24px;
+    right: calc(19 / 320 * 100%);
   }
 }
 
