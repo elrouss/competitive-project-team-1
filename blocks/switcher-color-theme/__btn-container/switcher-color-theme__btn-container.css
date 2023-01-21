@@ -1,4 +1,5 @@
 .switcher-color-theme__btn-container {
+  padding: 0;
   width: 44px;
   height: 24px;
   background-color: var(--switcher-theme-color-container_theme_light);
