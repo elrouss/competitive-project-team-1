@@ -1,6 +1,7 @@
 @media screen and (max-width: 560px) {
   .header__burger-line {
     display: block;
+    margin: 0;
     width: 22px;
     height: 4px;
     background-color: var(--basic-third-tint-color_theme_light);

@@ -5,15 +5,16 @@
 @media screen and (max-width: 561px) {
   .header__burger {
     display: block;
-    width: 25px;
+    width: 22px;
     height: 20px;
     background-color: transparent;
+    margin: 0;
     padding: 0;
     border: none;
     cursor: pointer;
     position: absolute;
     top: 24px;
-    right: calc(15 / 320 * 100%);
+    right: calc(18 / 320 * 100%);
   }
 }
 
