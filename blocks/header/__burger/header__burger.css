@@ -5,7 +5,7 @@
 @media screen and (max-width: 561px) {
   .header__burger {
     display: block;
-    width: 22px;
+    width: 25px;
     height: 20px;
     background-color: transparent;
     padding: 0;
@@ -13,7 +13,7 @@
     cursor: pointer;
     position: absolute;
     top: 24px;
-    right: calc(19 / 320 * 100%);
+    right: calc(15 / 320 * 100%);
   }
 }
 
