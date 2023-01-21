@@ -11,10 +11,9 @@
     padding: 0;
     border: none;
     cursor: pointer;
-    margin-right: 10px;
     position: absolute;
     top: 10px;
-    right: calc(18 / 320 * 100%);
+    right: calc(23 / 320 * 100%);
   }
 }
 
