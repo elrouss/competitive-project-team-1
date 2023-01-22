@@ -18,10 +18,10 @@
   .ride {
     display: block;
     padding-top: 20px;
-    margin: 36px 17px 0;
+    margin: 39px 17px 0;
     margin-left: calc(18/320 * 100%);
     margin-right: calc(18/320 * 100%);
     position: relative;
-    border-top: 1px solid #e3e3e3;
+    border-top: var(--border_theme_light);
   }
 }

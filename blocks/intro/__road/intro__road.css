@@ -3,6 +3,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1239px) {
@@ -15,6 +16,7 @@
  @media screen and (max-width: 770px) {
   .intro__road {
     max-width: 391px;
+    top: -5px;
   }
 }
 @media screen and (max-width: 385px) {

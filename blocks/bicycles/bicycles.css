@@ -18,7 +18,7 @@
     margin-left: calc(18/320 * 100%);
     margin-bottom: 40px;
     margin-right: calc(18/320 * 100%);
-    padding-top: 37px;
+    padding-top: 34px;
     grid-template-columns: 1fr;
     grid-template-areas:
     'title'

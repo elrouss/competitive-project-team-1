@@ -4,7 +4,7 @@
   margin-top: 40px;
   width: 114px;
   height: 30px;
-  border: var(--form-dropdown-border_theme_light);
+  border: var(--border_theme_light);
   border-radius: 2px;
   font-weight: 600;
   font-size: 11px;

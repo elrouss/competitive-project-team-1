@@ -14,6 +14,7 @@
 
 @media screen and (max-width: 770px) {
   .roads {
+    padding-top: 80px;
     margin-left: calc(18/320 * 100%);
     margin-right: calc(18/320 * 100%);
     grid-template-areas:

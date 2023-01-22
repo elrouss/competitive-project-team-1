@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 964px) {
   .workout {
-    padding-top: 40px;
+    padding-top: 36px;
     grid-template-columns: 1fr;
     grid-template-areas:
       'title'

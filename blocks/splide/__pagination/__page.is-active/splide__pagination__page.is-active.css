@@ -1,3 +1,3 @@
 .splide__pagination__page.is-active {
-  background-color: #151515;
+  background-color: var(--basic-second-tint-color_theme_light);
 }

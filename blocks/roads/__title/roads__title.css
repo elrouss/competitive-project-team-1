@@ -5,7 +5,7 @@
 
 @media screen and (max-width: 770px) {
   .roads__title {
-    border-top: 1px solid #e3e3e3;
-    padding-top: 47px;
+    border-top: var(--border_theme_light);
+    padding-top: 39px;
   }
 }

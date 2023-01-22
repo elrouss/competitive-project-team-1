@@ -3,5 +3,5 @@
   padding: 0;
   width: 4px;
   height: 4px;
-  background-color: #CACACA;
+  background-color: var(--slider-pagination-btn_theme_light);
 }

@@ -5,7 +5,7 @@
 @media screen and (max-width: 770px) {
   .workout__title {
     max-width: 100%;
-    padding-top: 35px;
-    border-top: 1px solid #e3e3e3;
+    padding-top: 39px;
+    border-top: var(--border_theme_light);
   }
 }
