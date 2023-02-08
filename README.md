@@ -48,7 +48,7 @@
 
 <div align="right">(<a href="#summary">к оглавлению</a>)</div>
 
-<a name="installation"><h2>4. Установка и запуск проекта в локальном репозитории</h2></a>
+<a name="installation"><h2>:computer: 4. Установка и запуск проекта в локальном репозитории</h2></a>
 1. `git clone https://elrouss.github.io/competitive-project-team-1.git` - клонировать репозиторий (с использованием HTTPS) на свое устройство
 2. `Go live` - запустить команду расширения `Live Server` в `VS Code`
 
@@ -59,7 +59,7 @@
 
 <div align="right">(<a href="#summary">к оглавлению</a>)</div>
 
-<a name="tasks-and-problems"><h3>5.1 Основные задачи, проблемы и их решение</h3></a>
+<a name="tasks-and-problems"><h3>:exploding_head: 5.1 Основные задачи, проблемы и их решение</h3></a>
 <p>
 text
 </p>
@@ -67,12 +67,40 @@ text
 <div align="right">(<a href="#summary">к оглавлению</a>)</div>
 
 <a name="functionality"><h2>:man_mechanic: 6. Функционал</h2></a>
-:white_check_mark: Адаптивный интерфейс<br>
-:white_check_mark: Открытие и закрытие модального окна (на мобильных устройствах)<br>
-:white_check_mark: Слайдер с переключением текста<br>
-:white_check_mark: Табы переключения карточек<br>
-:white_check_mark: Слайдер карточек (для мобильных устройств, планшетов и ноутбуков)<br>
-:white_check_mark: Свитчер светлой/темной темы
+<details>
+  <summary>:white_check_mark: Адаптивный интерфейс</summary>
+  <a href="https://elrouss.github.io/mesto/">
+    <img width="500" src="https://user-images.githubusercontent.com/108838349/217515351-dc5fec13-4bd8-4069-b0a1-8eb3dbbb882d.gif" alt="Гиф с демонстрацией адаптивного интерфейса сайта">
+  </a>
+</details>
+
+<details>
+  <summary>:white_check_mark: Открытие и закрытие модального окна (на мобильных устройствах)</summary>
+  <a href="https://elrouss.github.io/mesto/">
+    <img width="250" src="https://user-images.githubusercontent.com/108838349/217513763-46ca6bcb-7d23-41ac-baca-6ec7f42ac4df.gif" alt="Гиф с демонстрацией открытия и закрытия модального окна (на мобильных устройствах)">
+  </a>
+</details>
+
+<details>
+  <summary>:white_check_mark: Слайдер с переключением текста</summary>
+  <a href="https://elrouss.github.io/mesto/">
+    <img width="250" src="https://user-images.githubusercontent.com/108838349/217513799-62d333b0-969a-46a0-be63-0cfd577f9290.gif" alt="Гиф с демонстрацией слайдера с переключением текста">
+  </a>
+</details>
+
+<details>
+  <summary>:white_check_mark: Выпадающее меню с переключением карточек и слайдером (для мобильных устройств, планшетов и ноутбуков)</summary>
+  <a href="https://elrouss.github.io/mesto/">
+    <img width="250" src="https://user-images.githubusercontent.com/108838349/217515328-3d057910-07b7-4bfd-aec5-e624ffde4c64.gif" alt="Гиф с демонстрацией выпадающего меню с переключением карточек и слайдером">
+  </a>
+</details>
+
+<details>
+  <summary>:white_check_mark: Переключатель светлой/темной темы</summary>
+  <a href="https://elrouss.github.io/mesto/">
+    <img width="250" src="https://user-images.githubusercontent.com/108838349/217513875-845a0fdd-1666-435c-af21-78c117750fbb.gif" alt="Гиф с демонстрацией переключателя светлой/темной темы">
+  </a>
+</details>
 
 <div align="right">(<a href="#summary">к оглавлению</a>)</div>
 
