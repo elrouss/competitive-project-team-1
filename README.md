@@ -2,42 +2,88 @@
 
 <div align="center">
   <a href="https://elrouss.github.io/competitive-project-team-1/">
-    <img src="https://user-images.githubusercontent.com/108838349/211172101-71356242-536a-45a5-b3b4-3423b1fa578a.gif" width="400">
+    <img src="https://user-images.githubusercontent.com/108838349/211172101-71356242-536a-45a5-b3b4-3423b1fa578a.gif" width="400" alt="Гиф с демонстрацией функционала приложения">
   </a>
 </div>
 
-<h2 align="left">:technologist: Команда веб-разработчиков</h2>
+<a name="summary">
+<details>
+  <summary>Оглавление</summary>
+  <ol>
+    <li><a href="#team">Команда</a></li>
+    <li><a href="#project-description">Описание проекта</a></li>
+    <li><a href="#technologies">Стек технологий</a></li>
+    <li><a href="#installation">Установка и запуск проекта в локальном репозитории</a></li>
+    <li><a href="#establishing">Процесс создания</a></li>
+    <ul>
+      <li><a href="#tasks-and-problems">Основные задачи, проблемы и их решение</a></li>
+    </ul>
+    <li><a href="#functionality">Функционал</a></li>
+    <li><a href="#enhancement">Планы по улучшению</a></li>
+  </ol>
+</details>
+</a>
+
+<a name="team"><h2>:technologist: 1. Команда</h2></a>
 <p align="center">:biking_woman: <a href="https://github.com/sofiapeshekhonova">Софья Пешехонова</a></p>
 <p align="right">:biking_man: <a href="https://github.com/elrouss">Борис Зашляпин</a></p>
 
-## :page_with_curl: Описание проекта
+<div align="right">(<a href="#summary">к оглавлению</a>)</div>
+
+<a name="project-description"><h2>:page_with_curl: 2. Описание проекта</h2></a>
 Проектная работа выполнена в рамках командного соревнования студентов <a href="https://practicum.yandex.ru/">"Яндекс Практикума"</a>. Проект представляет собой создание одностраничного сайта по макету, описывающего о различные виды велотренировок со ссылками на полезные сервисы для составления индивидуального тренировочного плана велосипедиста. Он корректно отображается на любых устройствах с разрешением экрана от 320px.
 
-## :chart_with_upwards_trend: Методология и процесс создания
-Главной особенностью этого проекта является работа в команде из 2 человек. В течение 72 часов, выделенных на конкурс, было сверстано 7 блоков на разрешение 1440px и отчасти - 320px. Уже по завершении конкурса проект был доработан до конца: секции доверстаны на все разрешения, часть компонентов переписана при помощи темплейтов на JS, реализован функционал страницы.
+<h4>:link: Ссылка на макет: https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=2%3A7</h4>
+<h4>:link: Ссылка на проект: https://elrouss.github.io/competitive-project-team-1/</h4>
+<p><i>* - Проект не входит в основную образовательную программу и является дополнительным</i></p>
 
-## :man_mechanic: Функционал
+<div align="right">(<a href="#summary">к оглавлению</a>)</div>
+
+<a name="technologies"><h2>:hammer_and_wrench: 3. Стек технологий</h2></a>
+<span>
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="Иконка JavaScript">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Иконка CSS3">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Иконка HTML5">
+</span>
+
+<div align="right">(<a href="#summary">к оглавлению</a>)</div>
+
+<a name="installation"><h2>4. Установка и запуск проекта в локальном репозитории</h2></a>
+1. `git clone https://elrouss.github.io/competitive-project-team-1.git` - клонировать репозиторий (с использованием HTTPS) на свое устройство
+2. `Go live` - запустить команду расширения `Live Server` в `VS Code`
+
+<div align="right">(<a href="#summary">к оглавлению</a>)</div>
+
+<a name="establishing"><h2>:chart_with_upwards_trend: 5. Процесс создания</h2></a>
+Главной особенностью этого проекта является работа в команде из 2 человек. В течение 72 часов, выделенных на конкурс, было сверстано 7 блоков на разрешение 1440px и отчасти - 320px. Уже по завершении конкурса проект был доработан до конца: секции доверстаны на все разрешения, часть компонентов переписана при помощи темплейтов на JS, реализован функционал страницы
+
+<div align="right">(<a href="#summary">к оглавлению</a>)</div>
+
+<a name="tasks-and-problems"><h3>5.1 Основные задачи, проблемы и их решение</h3></a>
+<p>
+text
+</p>
+
+<div align="right">(<a href="#summary">к оглавлению</a>)</div>
+
+<a name="functionality"><h2>:man_mechanic: 6. Функционал</h2></a>
 :white_check_mark: Адаптивный интерфейс<br>
 :white_check_mark: Открытие и закрытие модального окна (на мобильных устройствах)<br>
 :white_check_mark: Слайдер с переключением текста<br>
 :white_check_mark: Табы переключения карточек<br>
 :white_check_mark: Слайдер карточек (для мобильных устройств, планшетов и ноутбуков)<br>
-:white_check_mark: Отправка формы<br>
-:white_check_mark: Свитчер светлой/темной темы<br>
+:white_check_mark: Свитчер светлой/темной темы
 
-<h2 align="right">Стек технологий :hammer_and_wrench:</h2>
-<div align="right">HTML5 :eight_spoked_asterisk:</div>
-<div align="right">CSS3 :eight_spoked_asterisk:</div>
-<div align="right">Vanilla JS :eight_spoked_asterisk:</div>
-<div align="right">Splidejs :eight_spoked_asterisk:</div>
-<div align="right">БЭМ :eight_spoked_asterisk:</div>
+<div align="right">(<a href="#summary">к оглавлению</a>)</div>
 
-## :balance_scale: Планы по доработке
+<a name="enhancement"><h2>:balance_scale: 7. Планы по улучшению</h2></a>
 :o: Сверстать и заменить дефолтное окно выпадающего меню на мобильных устройствах и планшетах<br>
 :o: Написать логику валидации формы<br>
 :o: Убрать фокус у скрытых элементов и исчезновение кнопки сабмита формы при перемещении по странице клавишей Tab<br>
 :o: Стилизовать фокус у элементов<br>
 :o: Оптимизировать программный код
+
+<div align="right">(<a href="#summary">к оглавлению</a>)</div>
 
 <div align="center">
   <a href="https://elrouss.github.io/competitive-project-team-1/">
@@ -47,7 +93,3 @@
     <img width="300" alt="Снимок экрана 2023-01-08 в 04 09 50" src="https://user-images.githubusercontent.com/108838349/211173559-b7801344-c8ce-4636-96da-73156e5b97bd.png">
   </a>
 </div>
-
-<h3>:link: Ссылка на макет: https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=2%3A7</h3>
-<h3>:link: Ссылка на проект: https://elrouss.github.io/competitive-project-team-1/</h3>
-<p><i>* Проект не входит в основную образовательную программу и является дополнительным</i></p>
