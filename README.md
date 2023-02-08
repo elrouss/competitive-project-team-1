@@ -25,8 +25,8 @@
 </a>
 
 <a name="team"><h2>:technologist: 1. Команда</h2></a>
-<p align="center">:biking_woman: <a href="https://github.com/sofiapeshekhonova">Софья Пешехонова</a></p>
-<p align="right">:biking_man: <a href="https://github.com/elrouss">Борис Зашляпин</a></p>
+<p>:biking_woman: <a href="https://github.com/sofiapeshekhonova">Софья Пешехонова</a></p>
+<p align="center">:biking_man: <a href="https://github.com/elrouss">Борис Зашляпин</a></p>
 
 <div align="right">(<a href="#summary">к оглавлению</a>)</div>
 
