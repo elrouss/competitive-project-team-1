@@ -1,4 +1,4 @@
-<h1 align="center">Проект: "Велотренировки" :ferris_wheel:</h1>
+<h1 align="center">Учебный проект: "Велотренировки" :ferris_wheel:</h1>
 
 <div align="center">
   <a href="https://elrouss.github.io/competitive-project-team-1/">
